@@ -1,0 +1,26 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\User\Desktop\123\N4\simulation\modelsim
+vN4
+!i10b 1
+!s100 QY;z@o7gMJczF3T6mTiY;1
+IcM4@nV=BEnW8mUl;XMoUK2
+V?45Ign3317H@10=P39;mC2
+Z1 dC:\Users\User\Desktop\123\N4\simulation\modelsim
+w1571317572
+8C:/Users/User/Desktop/123/N4/N4.v
+FC:/Users/User/Desktop/123/N4/N4.v
+L0 1
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1571317951.267000
+!s107 C:/Users/User/Desktop/123/N4/N4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/User/Desktop/123/N4|C:/Users/User/Desktop/123/N4/N4.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/User/Desktop/123/N4 -O0
+n@n4

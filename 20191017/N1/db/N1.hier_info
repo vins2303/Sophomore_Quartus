@@ -1,0 +1,33 @@
+|N1
+clk => out~reg0.CLK
+clk => state[0]~reg0.CLK
+clk => state[1]~reg0.CLK
+clk => state[2]~reg0.CLK
+in => Mux1.IN5
+in => Mux2.IN7
+in => Mux0.IN6
+in => Mux0.IN7
+in => Mux1.IN6
+in => Mux1.IN7
+in => Mux3.IN5
+in => Mux3.IN6
+in => Mux3.IN7
+in => Mux3.IN3
+in => Mux3.IN4
+in => Mux0.IN3
+in => Mux0.IN4
+in => Mux0.IN5
+in => Mux1.IN2
+in => Mux1.IN3
+in => Mux1.IN4
+in => Mux2.IN5
+in => Mux2.IN6
+out <= out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+state[0] <= state[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[1] <= state[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[2] <= state[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

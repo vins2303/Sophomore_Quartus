@@ -1,0 +1,23 @@
+D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/PATTERN.v {1 {vlog -work work -vopt -stats=none D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/PATTERN.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module PATTERN
+
+Top level modules:
+	PATTERN
+
+} {} {}} D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/CC.v {1 {vlog -work work -vopt -stats=none D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/CC.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module CC
+
+Top level modules:
+	CC
+
+} {} {}} D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/TESTBED.v {1 {vlog -work work -vopt -stats=none D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/TESTBED.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module PATTERN
+-- Compiling module TESTBED
+
+Top level modules:
+	TESTBED
+
+} {} {}}

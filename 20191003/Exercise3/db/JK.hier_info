@@ -1,0 +1,15 @@
+|JK
+clk => out~reg0.CLK
+rst => out.OUTPUTSELECT
+out <= out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+J => always0.IN0
+J => always0.IN0
+J => always0.IN0
+J => always0.IN0
+K => always0.IN1
+K => always0.IN1
+K => always0.IN1
+K => always0.IN1
+valid => out.OUTPUTSELECT
+
+

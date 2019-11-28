@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCKU/NCKU
+vCC
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 HgFF=m>hi]WoIdClBRCA33
+ISK:NafbO28[@^c7lNkaCN0
+Z1 dD:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU
+w1571936182
+8D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/CC.v
+FD:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/CC.v
+L0 1
+Z2 OL;L;10.4;61
+!s108 1571936215.526000
+!s107 D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/CC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/CC.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@c@c
+vPATTERN
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 hZkm2]EaUVkmcJBVDVk<i0
+I]=UUkMfLXSk:d?<0Kj:oD1
+R1
+w1571832980
+8PATTERN.v
+FPATTERN.v
+L0 3
+R2
+Z4 !s108 1571936215.444000
+Z5 !s107 PATTERN.v|D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/TESTBED.v|
+Z6 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/TESTBED.v|
+!i113 0
+R3
+n@p@a@t@t@e@r@n
+vTESTBED
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 2GacL=hQH`E<TBZYXIjz@2
+IoiYkM_HAzTGEOITEPXD9@1
+R1
+w1571808619
+8D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/TESTBED.v
+FD:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/TESTBED.v
+L0 29
+R2
+R4
+R5
+R6
+!i113 0
+R3
+n@t@e@s@t@b@e@d

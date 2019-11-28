@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Nov 21 17:10:05 2019
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Web Edition
+Revision Name : N3
+Top-level Entity Name : N3
+Family : Cyclone IV E
+Total logic elements : 200
+    Total combinational functions : 184
+    Dedicated logic registers : 32
+Total registers : 32
+Total pins : 68
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 1
+Total PLLs : 0

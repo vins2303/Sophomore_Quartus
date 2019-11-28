@@ -1,0 +1,15 @@
+D:/Code/kyan_school/Sophomore/verilog2/20191024/N2/test.v {1 {vlog -work work D:/Code/kyan_school/Sophomore/verilog2/20191024/N2/test.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}} D:/Code/kyan_school/Sophomore/verilog2/20191024/N2/ALU.v {1 {vlog -work work D:/Code/kyan_school/Sophomore/verilog2/20191024/N2/ALU.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}}

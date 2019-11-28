@@ -1,0 +1,113 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -5.018
+TNS   : -155.242
+
+Type  : Slow 1200mV 85C Model Setup 'Button_Key:butkey|out'
+Slack : -4.043
+TNS   : -39.875
+
+Type  : Slow 1200mV 85C Model Setup 'LSCLK:ck|out'
+Slack : -1.271
+TNS   : -6.527
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : -0.287
+TNS   : -0.977
+
+Type  : Slow 1200mV 85C Model Hold 'LSCLK:ck|out'
+Slack : 0.456
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Button_Key:butkey|out'
+Slack : 1.178
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -50.545
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LSCLK:ck|out'
+Slack : -1.285
+TNS   : -23.130
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Button_Key:butkey|out'
+Slack : -1.285
+TNS   : -12.850
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -4.510
+TNS   : -139.348
+
+Type  : Slow 1200mV 0C Model Setup 'Button_Key:butkey|out'
+Slack : -3.667
+TNS   : -36.145
+
+Type  : Slow 1200mV 0C Model Setup 'LSCLK:ck|out'
+Slack : -1.082
+TNS   : -4.891
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : -0.201
+TNS   : -0.481
+
+Type  : Slow 1200mV 0C Model Hold 'LSCLK:ck|out'
+Slack : 0.418
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Button_Key:butkey|out'
+Slack : 1.076
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -50.545
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LSCLK:ck|out'
+Slack : -1.285
+TNS   : -23.130
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Button_Key:butkey|out'
+Slack : -1.285
+TNS   : -12.850
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.837
+TNS   : -54.396
+
+Type  : Fast 1200mV 0C Model Setup 'Button_Key:butkey|out'
+Slack : -1.703
+TNS   : -16.470
+
+Type  : Fast 1200mV 0C Model Setup 'LSCLK:ck|out'
+Slack : -0.107
+TNS   : -0.235
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -0.382
+TNS   : -3.246
+
+Type  : Fast 1200mV 0C Model Hold 'LSCLK:ck|out'
+Slack : 0.203
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Button_Key:butkey|out'
+Slack : 0.540
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -42.614
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LSCLK:ck|out'
+Slack : -1.000
+TNS   : -18.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Button_Key:butkey|out'
+Slack : -1.000
+TNS   : -10.000
+
+------------------------------------------------------------

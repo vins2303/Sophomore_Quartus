@@ -1,0 +1,20 @@
+module N3(clk, reset, def, r)
+input clk, reset;
+output reg def;
+output reg [6:0]r;
+
+always@(posedge clk)begin
+	if(reset == 0)begin
+		def <=0;
+		r<= 15;//0001111
+	end else begin
+		r <= {r[5:0], r[4]^r[5]^r[6]}
+	
+	end
+	
+	
+	
+end
+
+
+endmodule

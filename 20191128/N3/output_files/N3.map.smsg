@@ -1,0 +1,2 @@
+Warning (10273): Verilog HDL warning at N2_stack.v(31): extended using "x" or "z"
+Info (10281): Verilog HDL Declaration information at N2_stack.v(4): object "KEY0" differs only in case from object "key0" in the same scope

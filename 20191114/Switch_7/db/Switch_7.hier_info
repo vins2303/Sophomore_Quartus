@@ -1,0 +1,28 @@
+|Switch_7
+SW[14] => SW[14].IN1
+SW[15] => SW[15].IN1
+SW[16] => SW[16].IN1
+SW[17] => SW[17].IN1
+HEX7[0] <= Segment_7:seg.out
+HEX7[1] <= Segment_7:seg.out
+HEX7[2] <= Segment_7:seg.out
+HEX7[3] <= Segment_7:seg.out
+HEX7[4] <= Segment_7:seg.out
+HEX7[5] <= Segment_7:seg.out
+HEX7[6] <= Segment_7:seg.out
+
+
+|Switch_7|Segment_7:seg
+num[0] => Decoder0.IN3
+num[1] => Decoder0.IN2
+num[2] => Decoder0.IN1
+num[3] => Decoder0.IN0
+out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

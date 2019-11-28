@@ -1,0 +1,3242 @@
+# Compile of TESTBED.v was successful.
+# Compile of CC.v failed with 4 errors.
+# Compile of PATTERN.v was successful.
+# 3 compiles, 1 failed with 4 errors.
+# wrong # args: should be "load file ?pkg? ?interp?"
+# wrong # args: should be "load file ?pkg? ?interp?"
+# wrong # args: should be "load file ?pkg? ?interp?"
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# Compile of PATTERN.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# Compile of PATTERN.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -novopt work.TESTBED
+# vsim -gui 
+# Start time: 23:45:13 on Oct 24,2019
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.TESTBED
+# Loading work.TESTBED
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.CC
+# Loading work.CC
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.PATTERN
+# Loading work.PATTERN
+run -all
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.   0 	                
+# *                 Ans :    4,  Your output :    0  at     2000         
+# **************************************************************
+# ** Note: $finish    : D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/PATTERN.v(158)
+#    Time: 20 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+add wave -position insertpoint  \
+sim:/TESTBED/My_CC/in_n0 \
+sim:/TESTBED/My_CC/in_n1 \
+sim:/TESTBED/My_CC/in_n2 \
+sim:/TESTBED/My_CC/in_n3 \
+sim:/TESTBED/My_CC/opt \
+sim:/TESTBED/My_CC/out_n \
+sim:/TESTBED/My_CC/data \
+sim:/TESTBED/My_CC/total \
+sim:/TESTBED/My_CC/i \
+sim:/TESTBED/My_CC/j \
+sim:/TESTBED/My_CC/swap
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+run -all
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.   0 	                
+# *                 Ans :    4,  Your output :    0  at     2000         
+# **************************************************************
+# ** Note: $finish    : D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/PATTERN.v(158)
+#    Time: 20 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# Compile of PATTERN.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.TESTBED
+# Loading work.TESTBED
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.CC
+# Loading work.CC
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.PATTERN
+# Loading work.PATTERN
+run -all
+#  -4  -5  -7   1
+#   1  -4  -5  -7
+#   5   0  -1  -3
+#   5   0  -1  -3
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.   0 	                
+# *                 Ans :    4,  Your output :    0  at     2000         
+# **************************************************************
+# ** Note: $finish    : D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/PATTERN.v(158)
+#    Time: 20 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# Compile of PATTERN.v was successful.
+# 3 compiles, 0 failed with no errors.
+run -all
+#  -4  -5  -7   1
+#   1  -4  -5  -7
+#   5   0  -1  -3
+#   5   0  -1  -3
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.   0 	                
+# *                 Ans :    4,  Your output :    0  at     2000         
+# **************************************************************
+# ** Note: $finish    : D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/PATTERN.v(158)
+#    Time: 20 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+# wrong # args: should be "load file ?pkg? ?interp?"
+# wrong # args: should be "load file ?pkg? ?interp?"
+# wrong # args: should be "load file ?pkg? ?interp?"
+# wrong # args: should be "load file ?pkg? ?interp?"
+# wrong # args: should be "load file ?pkg? ?interp?"
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# Compile of PATTERN.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.TESTBED
+# Loading work.TESTBED
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.CC
+# Loading work.CC
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.PATTERN
+# Loading work.PATTERN
+run -all
+#  -4  -5  -7   1
+#   1  -4  -5  -7
+#   5   0  -1  -3
+#   5   0  -1  -3
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.   0 	                
+# *                 Ans :    4,  Your output :    0  at     2000         
+# **************************************************************
+# ** Note: $finish    : D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/PATTERN.v(158)
+#    Time: 20 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+# wrong # args: should be "load file ?pkg? ?interp?"
+# wrong # args: should be "load file ?pkg? ?interp?"
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of CC.v failed with 4 errors.
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# 3 compiles, 1 failed with 4 errors.
+# wrong # args: should be "load file ?pkg? ?interp?"
+# wrong # args: should be "load file ?pkg? ?interp?"
+# wrong # args: should be "load file ?pkg? ?interp?"
+# wrong # args: should be "load file ?pkg? ?interp?"
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Load canceled
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.TESTBED
+# Loading work.TESTBED
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.CC
+# Loading work.CC
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.PATTERN
+# Loading work.PATTERN
+run -all
+#  -4  -5  -7   1
+#   1  -4  -5  -7
+#   5   0  -1  -3
+#   5   0  -1  -3
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.   0 	                
+# *                 Ans :    4,  Your output :    0  at     2000         
+# **************************************************************
+# ** Note: $finish    : PATTERN.v(158)
+#    Time: 20 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.TESTBED
+# Loading work.TESTBED
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.CC
+# Loading work.CC
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.PATTERN
+# Loading work.PATTERN
+run -all
+#  -4  -5  -7   1
+#   1  -4  -5  -7
+#  12
+#   5   0  -1  -3
+#   5   0  -1  -3
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.   0 	                
+# *                 Ans :    4,  Your output :    0  at     2000         
+# **************************************************************
+# ** Note: $finish    : PATTERN.v(158)
+#    Time: 20 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+run -all
+#  -4  -5  -7   1
+#   1  -4  -5  -7
+#  12
+#   5   0  -1  -3
+#   5   0  -1  -3
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.   0 	                
+# *                 Ans :    4,  Your output :    0  at     2000         
+# **************************************************************
+# ** Note: $finish    : PATTERN.v(158)
+#    Time: 20 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.TESTBED
+# Loading work.TESTBED
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.CC
+# Loading work.CC
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.PATTERN
+# Loading work.PATTERN
+run -all
+#  -4  -5  -7   1
+#   1  -4  -5  -7
+#  -4
+#   5   0  -1  -3
+#   5   0  -1  -3
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.   0 	                
+# *                 Ans :    4,  Your output :    0  at     2000         
+# **************************************************************
+# ** Note: $finish    : PATTERN.v(158)
+#    Time: 20 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.TESTBED
+# Loading work.TESTBED
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.CC
+# Loading work.CC
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.PATTERN
+# Loading work.PATTERN
+run -all
+#  -4  -5  -7   1
+#   1  -4  -5  -7
+#  -3
+#   4  -1  -2  -4
+#   4  -1  -2  -4
+# *                            PATTERN NO.   0  passed	                
+#  -3   0   7   7
+#  -3   0   7   7
+#   2
+#  -5  -2   5   5
+#  -5  -2   5   5
+# *                            PATTERN NO.   1  passed	                
+#   2  -3  -7  -3
+#   2  -3  -7  -3
+#  -2
+#   4  -1  -5  -1
+#   4  -1  -5  -1
+# *                            PATTERN NO.   2  passed	                
+#  -8  -2   0  -3
+#  -8  -2   0  -3
+#  -2
+#  -8  -2   0  -3
+#  -8  -2   0  -3
+# *                            PATTERN NO.   3  passed	                
+#  -6  -7   7   6
+#  -6  -7   7   6
+#  -2
+#  -6  -7   7   6
+#  -6  -7   7   6
+# *                            PATTERN NO.   4  passed	                
+#   3   1   6  -5
+#   3   1   6  -5
+#  -2
+#   3   1   6  -5
+#   3   1   6  -5
+# *                            PATTERN NO.   5  passed	                
+#   3  -6   3  -3
+#   3  -6   3  -3
+#  -2
+#   3  -6   3  -3
+#   3  -6   3  -3
+# *                            PATTERN NO.   6  passed	                
+#   6   5  -8   4
+#   6   5   4  -8
+#  -2
+#   6   5   4  -8
+#   6   5   4  -8
+# *                            PATTERN NO.   7  passed	                
+#   3   5   1   5
+#   3   5   1   5
+#   3
+#   0   2  -2   2
+#   0   2  -2   2
+# *                            PATTERN NO.   8  passed	                
+#   7  -7  -7  -3
+#   7  -7  -7  -3
+#  -2
+#  -7  -5  -5  -1
+#  -7  -5  -5  -1
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.   9 	                
+# *                 Ans :  -91,  Your output :   69  at    20000         
+# **************************************************************
+# ** Note: $finish    : PATTERN.v(158)
+#    Time: 200 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.TESTBED
+# Loading work.TESTBED
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.CC
+# Loading work.CC
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.PATTERN
+# Loading work.PATTERN
+run -all
+#  -4  -5  -7   1
+#   1  12  11   9
+#  -7
+#   8 -13 -14 -16
+#   8 -13 -14 -16
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.   0 	                
+# *                 Ans :    4,  Your output : -200  at     2000         
+# **************************************************************
+# ** Note: $finish    : PATTERN.v(158)
+#    Time: 20 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.TESTBED
+# Loading work.TESTBED
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.CC
+# Loading work.CC
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.PATTERN
+# Loading work.PATTERN
+run -all
+#  -4  -5  -7   1
+#   1  -4  -5  -7
+#  -3
+#   4  -1  -2  -4
+#   4  -1  -2  -4
+# *                            PATTERN NO.   0  passed	                
+#  -3   0   7   7
+#  -3   0   7   7
+#   2
+#  -5  -2   5   5
+#  -5  -2   5   5
+# *                            PATTERN NO.   1  passed	                
+#   2  -3  -7  -3
+#   2  -3  -7  -3
+#  -2
+#   4  -1  -5  -1
+#   4  -1  -5  -1
+# *                            PATTERN NO.   2  passed	                
+#  -8  -2   0  -3
+#  -8  -2   0  -3
+#  -2
+#  -8  -2   0  -3
+#  -8  -2   0  -3
+# *                            PATTERN NO.   3  passed	                
+#  -6  -7   7   6
+#  -6  -7   7   6
+#  -2
+#  -6  -7   7   6
+#  -6  -7   7   6
+# *                            PATTERN NO.   4  passed	                
+#   3   1   6  -5
+#   3   1   6  -5
+#  -2
+#   3   1   6  -5
+#   3   1   6  -5
+# *                            PATTERN NO.   5  passed	                
+#   3  -6   3  -3
+#   3  -6   3  -3
+#  -2
+#   3  -6   3  -3
+#   3  -6   3  -3
+# *                            PATTERN NO.   6  passed	                
+#   6   5  -8   4
+#   6   5   4  -8
+#  -2
+#   6   5   4  -8
+#   6   5   4  -8
+# *                            PATTERN NO.   7  passed	                
+#   3   5   1   5
+#   3   5   1   5
+#   3
+#   0   2  -2   2
+#   0   2  -2   2
+# *                            PATTERN NO.   8  passed	                
+#   7  -7  -7  -3
+#   7  -7  -7  -3
+#  -2
+#   9  -5  -5  -1
+#   9  -5  -5  -1
+# *                            PATTERN NO.   9  passed	                
+#   6  -4   1   7
+#   7   6   1  -4
+#  -2
+#   7   6   1  -4
+#   7   6   1  -4
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.  10 	                
+# *                 Ans :   10,  Your output :    0  at    22000         
+# **************************************************************
+# ** Note: $finish    : PATTERN.v(158)
+#    Time: 220 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.TESTBED
+# Loading work.TESTBED
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.CC
+# Loading work.CC
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.PATTERN
+# Loading work.PATTERN
+run -all
+#  -4  -5  -7   1
+#   1  -4  -5  -7
+#  -6
+#   7   2   1  -1
+#   7   2   1  -1
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.   0 	                
+# *                 Ans :    4,  Your output :    2  at     2000         
+# **************************************************************
+# ** Note: $finish    : PATTERN.v(158)
+#    Time: 20 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.TESTBED
+# Loading work.TESTBED
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.CC
+# Loading work.CC
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.PATTERN
+# Loading work.PATTERN
+run -all
+#  -4  -5  -7   1
+#   1  -4  -5  -7
+#  -2
+#   3  -2  -3  -5
+#   3  -2  -3  -5
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.   0 	                
+# *                 Ans :    4,  Your output :   11  at     2000         
+# **************************************************************
+# ** Note: $finish    : PATTERN.v(158)
+#    Time: 20 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.TESTBED
+# Loading work.TESTBED
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.CC
+# Loading work.CC
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.PATTERN
+# Loading work.PATTERN
+run -all
+#  -4  -5  -7   1
+#   1  -4  -5  -7
+#  -2
+#   3  -2  -3  -5
+#   3  -2  -3  -5
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.   0 	                
+# *                 Ans :    4,  Your output :   11  at     2000         
+# **************************************************************
+# ** Note: $finish    : PATTERN.v(158)
+#    Time: 20 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.TESTBED
+# Loading work.TESTBED
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.CC
+# Loading work.CC
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.PATTERN
+# Loading work.PATTERN
+run -all
+#  -4  -5  -7   1
+#   1  -4  -5  -7
+#  -3
+#   4  -1  -2  -4
+#   4  -1  -2  -4
+# *                            PATTERN NO.   0  passed	                
+#  -3   0   7   7
+#  -3   0   7   7
+#   2
+#  -5  -2   5   5
+#  -5  -2   5   5
+# *                            PATTERN NO.   1  passed	                
+#   2  -3  -7  -3
+#   2  -3  -7  -3
+#  -2
+#   4  -1  -5  -1
+#   4  -1  -5  -1
+# *                            PATTERN NO.   2  passed	                
+#  -8  -2   0  -3
+#  -8  -2   0  -3
+#  -2
+#  -8  -2   0  -3
+#  -8  -2   0  -3
+# *                            PATTERN NO.   3  passed	                
+#  -6  -7   7   6
+#  -6  -7   7   6
+#  -2
+#  -6  -7   7   6
+#  -6  -7   7   6
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.   4 	                
+# *                 Ans :  -79,  Your output :   17  at    10000         
+# **************************************************************
+# ** Note: $finish    : PATTERN.v(158)
+#    Time: 100 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.TESTBED
+# Loading work.TESTBED
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.CC
+# Loading work.CC
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.PATTERN
+# Loading work.PATTERN
+run -all
+#  -4  -5  -7   1
+#   1  -4  -5  -7
+# total = -15
+#  -3
+#   4  -1  -2  -4
+#   4  -1  -2  -4
+# *                            PATTERN NO.   0  passed	                
+#  -3   0   7   7
+#  -3   0   7   7
+# total =  11
+#   2
+#  -5  -2   5   5
+#  -5  -2   5   5
+# *                            PATTERN NO.   1  passed	                
+#   2  -3  -7  -3
+#   2  -3  -7  -3
+# total = -11
+#  -2
+#   4  -1  -5  -1
+#   4  -1  -5  -1
+# *                            PATTERN NO.   2  passed	                
+#  -8  -2   0  -3
+#  -8  -2   0  -3
+#  -2
+#  -8  -2   0  -3
+#  -8  -2   0  -3
+# *                            PATTERN NO.   3  passed	                
+#  -6  -7   7   6
+#  -6  -7   7   6
+#  -2
+#  -6  -7   7   6
+#  -6  -7   7   6
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.   4 	                
+# *                 Ans :  -79,  Your output :   17  at    10000         
+# **************************************************************
+# ** Note: $finish    : PATTERN.v(158)
+#    Time: 100 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -novopt work.TESTBED
+# vsim 
+# Start time: 00:39:16 on Oct 25,2019
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.TESTBED
+# Loading work.TESTBED
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.CC
+# Loading work.CC
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.PATTERN
+# Loading work.PATTERN
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+add wave -position insertpoint  \
+sim:/TESTBED/My_CC/in_n0 \
+sim:/TESTBED/My_CC/in_n1 \
+sim:/TESTBED/My_CC/in_n2 \
+sim:/TESTBED/My_CC/in_n3 \
+sim:/TESTBED/My_CC/opt \
+sim:/TESTBED/My_CC/out_n \
+sim:/TESTBED/My_CC/data \
+sim:/TESTBED/My_CC/total \
+sim:/TESTBED/My_CC/i \
+sim:/TESTBED/My_CC/j \
+sim:/TESTBED/My_CC/swap \
+sim:/TESTBED/My_CC/ot
+run -all
+#   -4   -5   -7    1
+#    1   -4   -5   -7
+#   -3
+#    4   -1   -2   -4
+#    4   -1   -2   -4
+# *                            PATTERN NO.   0  passed	                
+#   -3    0    7    7
+#   -3    0    7    7
+#    2
+#   -5   -2    5    5
+#   -5   -2    5    5
+# *                            PATTERN NO.   1  passed	                
+#    2   -3   -7   -3
+#    2   -3   -7   -3
+#   -2
+#    4   -1   -5   -1
+#    4   -1   -5   -1
+# *                            PATTERN NO.   2  passed	                
+#   -8   -2    0   -3
+#   -8   -2    0   -3
+#   -2
+#   -8   -2    0   -3
+#   -8   -2    0   -3
+# *                            PATTERN NO.   3  passed	                
+#   -6   -7    7    6
+#   -6   -7    7    6
+#   -2
+#   -6   -7    7    6
+#   -6   -7    7    6
+# *                            PATTERN NO.   4  passed	                
+#    3    1    6   -5
+#    3    1    6   -5
+#   -2
+#    3    1    6   -5
+#    3    1    6   -5
+# *                            PATTERN NO.   5  passed	                
+#    3   -6    3   -3
+#    3   -6    3   -3
+#   -2
+#    3   -6    3   -3
+#    3   -6    3   -3
+# *                            PATTERN NO.   6  passed	                
+#    6    5   -8    4
+#    6    5    4   -8
+#   -2
+#    6    5    4   -8
+#    6    5    4   -8
+# *                            PATTERN NO.   7  passed	                
+#    3    5    1    5
+#    3    5    1    5
+#    3
+#    0    2   -2    2
+#    0    2   -2    2
+# *                            PATTERN NO.   8  passed	                
+#    7   -7   -7   -3
+#    7   -7   -7   -3
+#   -2
+#    9   -5   -5   -1
+#    9   -5   -5   -1
+# *                            PATTERN NO.   9  passed	                
+#    6   -4    1    7
+#    7    6    1   -4
+#   -2
+#    7    6    1   -4
+#    7    6    1   -4
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.  10 	                
+# *                 Ans :   10,  Your output :    0  at    22000         
+# **************************************************************
+# ** Note: $finish    : PATTERN.v(158)
+#    Time: 220 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.TESTBED
+# Loading work.TESTBED
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.CC
+# Loading work.CC
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.PATTERN
+# Loading work.PATTERN
+run -all
+#   -4   -5   -7    x
+#   -4   -5   -7    x
+#    x
+#    x    x    x    x
+#    x    x    x    x
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.   0 	                
+# *                 Ans :    4,  Your output :    x  at     2000         
+# **************************************************************
+# ** Note: $finish    : PATTERN.v(158)
+#    Time: 20 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.TESTBED
+# Loading work.TESTBED
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.CC
+# Loading work.CC
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.PATTERN
+# Loading work.PATTERN
+run -all
+#   -4   -5   -7    1
+#    1   -4   -5   -7
+#   -3
+#    4   -1   -2   -4
+#    4   -1   -2   -4
+# *                            PATTERN NO.   0  passed	                
+#   -3    0    7    7
+#   -3    0    7    7
+#    2
+#   -5   -2    5    5
+#   -5   -2    5    5
+# *                            PATTERN NO.   1  passed	                
+#    2   -3   -7   -3
+#    2   -3   -7   -3
+#   -2
+#    4   -1   -5   -1
+#    4   -1   -5   -1
+# *                            PATTERN NO.   2  passed	                
+#   -8   -2    0   -3
+#   -8   -2    0   -3
+#   -2
+#   -8   -2    0   -3
+#   -8   -2    0   -3
+# *                            PATTERN NO.   3  passed	                
+#   -6   -7    7    6
+#   -6   -7    7    6
+#   -2
+#   -6   -7    7    6
+#   -6   -7    7    6
+# *                            PATTERN NO.   4  passed	                
+#    3    1    6   -5
+#    3    1    6   -5
+#   -2
+#    3    1    6   -5
+#    3    1    6   -5
+# *                            PATTERN NO.   5  passed	                
+#    3   -6    3   -3
+#    3   -6    3   -3
+#   -2
+#    3   -6    3   -3
+#    3   -6    3   -3
+# *                            PATTERN NO.   6  passed	                
+#    6    5   -8    4
+#    6    5    4   -8
+#   -2
+#    6    5    4   -8
+#    6    5    4   -8
+# *                            PATTERN NO.   7  passed	                
+#    3    5    1    5
+#    3    5    1    5
+#    3
+#    0    2   -2    2
+#    0    2   -2    2
+# *                            PATTERN NO.   8  passed	                
+#    7   -7   -7   -3
+#    7   -7   -7   -3
+#   -2
+#    9   -5   -5   -1
+#    9   -5   -5   -1
+# *                            PATTERN NO.   9  passed	                
+#    6   -4    1    7
+#    7    6    1   -4
+#   -2
+#    7    6    1   -4
+#    7    6    1   -4
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.  10 	                
+# *                 Ans :   10,  Your output :    0  at    22000         
+# **************************************************************
+# ** Note: $finish    : PATTERN.v(158)
+#    Time: 220 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+restart
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.TESTBED
+# Loading work.TESTBED
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.CC
+# Loading work.CC
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.PATTERN
+# Loading work.PATTERN
+run -all
+#   -4   -5   -7    1
+#    1   -4   -5   -7
+#   -3
+#    4   -1   -2   -4
+#    4   -1   -2   -4
+# *                            PATTERN NO.   0  passed	                
+#   -3    0    7    7
+#   -3    0    7    7
+#    2
+#   -5   -2    5    5
+#   -5   -2    5    5
+# *                            PATTERN NO.   1  passed	                
+#    2   -3   -7   -3
+#    2   -3   -7   -3
+#   -2
+#    4   -1   -5   -1
+#    4   -1   -5   -1
+# *                            PATTERN NO.   2  passed	                
+#   -8   -2    0   -3
+#   -8   -2    0   -3
+#   -2
+#   -8   -2    0   -3
+#   -8   -2    0   -3
+# *                            PATTERN NO.   3  passed	                
+#   -6   -7    7    6
+#   -6   -7    7    6
+#   -2
+#   -6   -7    7    6
+#   -6   -7    7    6
+# *                            PATTERN NO.   4  passed	                
+#    3    1    6   -5
+#    3    1    6   -5
+#   -2
+#    3    1    6   -5
+#    3    1    6   -5
+# *                            PATTERN NO.   5  passed	                
+#    3   -6    3   -3
+#    3   -6    3   -3
+#   -2
+#    3   -6    3   -3
+#    3   -6    3   -3
+# *                            PATTERN NO.   6  passed	                
+#    6    5   -8    4
+#    6    5    4   -8
+#   -2
+#    6    5    4   -8
+#    6    5    4   -8
+# *                            PATTERN NO.   7  passed	                
+#    3    5    1    5
+#    3    5    1    5
+#    3
+#    0    2   -2    2
+#    0    2   -2    2
+# *                            PATTERN NO.   8  passed	                
+#    7   -7   -7   -3
+#    7   -7   -7   -3
+#   -2
+#    9   -5   -5   -1
+#    9   -5   -5   -1
+# *                            PATTERN NO.   9  passed	                
+#    6   -4    1    7
+#    7    6    1   -4
+#   -2
+#    7    6    1   -4
+#    7    6    1   -4
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.  10 	                
+# *                 Ans :   10,  Your output :    0  at    22000         
+# **************************************************************
+# ** Note: $finish    : PATTERN.v(158)
+#    Time: 220 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.TESTBED
+# Loading work.TESTBED
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.CC
+# Loading work.CC
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.PATTERN
+# Loading work.PATTERN
+run -all
+#   -4   -5   -7    1
+#    1   -4   -5   -7
+#          -3
+#    4   -1   -2   -4
+#    4   -1   -2   -4
+# *                            PATTERN NO.   0  passed	                
+#   -3    0    7    7
+#   -3    0    7    7
+#           2
+#   -5   -2    5    5
+#   -5   -2    5    5
+# *                            PATTERN NO.   1  passed	                
+#    2   -3   -7   -3
+#    2   -3   -7   -3
+#          -2
+#    4   -1   -5   -1
+#    4   -1   -5   -1
+# *                            PATTERN NO.   2  passed	                
+#   -8   -2    0   -3
+#   -8   -2    0   -3
+#          -2
+#   -8   -2    0   -3
+#   -8   -2    0   -3
+# *                            PATTERN NO.   3  passed	                
+#   -6   -7    7    6
+#   -6   -7    7    6
+#          -2
+#   -6   -7    7    6
+#   -6   -7    7    6
+# *                            PATTERN NO.   4  passed	                
+#    3    1    6   -5
+#    3    1    6   -5
+#          -2
+#    3    1    6   -5
+#    3    1    6   -5
+# *                            PATTERN NO.   5  passed	                
+#    3   -6    3   -3
+#    3   -6    3   -3
+#          -2
+#    3   -6    3   -3
+#    3   -6    3   -3
+# *                            PATTERN NO.   6  passed	                
+#    6    5   -8    4
+#    6    5    4   -8
+#          -2
+#    6    5    4   -8
+#    6    5    4   -8
+# *                            PATTERN NO.   7  passed	                
+#    3    5    1    5
+#    3    5    1    5
+#           3
+#    0    2   -2    2
+#    0    2   -2    2
+# *                            PATTERN NO.   8  passed	                
+#    7   -7   -7   -3
+#    7   -7   -7   -3
+#          -2
+#    9   -5   -5   -1
+#    9   -5   -5   -1
+# *                            PATTERN NO.   9  passed	                
+#    6   -4    1    7
+#    7    6    1   -4
+#          -2
+#    7    6    1   -4
+#    7    6    1   -4
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.  10 	                
+# *                 Ans :   10,  Your output :    0  at    22000         
+# **************************************************************
+# ** Note: $finish    : PATTERN.v(158)
+#    Time: 220 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.TESTBED
+# Loading work.TESTBED
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.CC
+# Loading work.CC
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.PATTERN
+# Loading work.PATTERN
+# Warning in wave window restart: (vish-4014) No objects found matching '/TESTBED/My_CC/ot'. 
+run -all
+#   -4   -5   -7    1
+#    1   -4   -5   -7
+# 000000001 111111100 111111011 111111001
+#   -3
+#    4   -1   -2   -4
+#    4   -1   -2   -4
+# *                            PATTERN NO.   0  passed	                
+#   -3    0    7    7
+#   -3    0    7    7
+# 111111101 000000000 000000111 000000111
+#    2
+#   -5   -2    5    5
+#   -5   -2    5    5
+# *                            PATTERN NO.   1  passed	                
+#    2   -3   -7   -3
+#    2   -3   -7   -3
+# 000000010 111111101 111111001 111111101
+#   -2
+#    4   -1   -5   -1
+#    4   -1   -5   -1
+# *                            PATTERN NO.   2  passed	                
+#   -8   -2    0   -3
+#   -8   -2    0   -3
+#   -2
+#   -8   -2    0   -3
+#   -8   -2    0   -3
+# *                            PATTERN NO.   3  passed	                
+#   -6   -7    7    6
+#   -6   -7    7    6
+#   -2
+#   -6   -7    7    6
+#   -6   -7    7    6
+# *                            PATTERN NO.   4  passed	                
+#    3    1    6   -5
+#    3    1    6   -5
+#   -2
+#    3    1    6   -5
+#    3    1    6   -5
+# *                            PATTERN NO.   5  passed	                
+#    3   -6    3   -3
+#    3   -6    3   -3
+#   -2
+#    3   -6    3   -3
+#    3   -6    3   -3
+# *                            PATTERN NO.   6  passed	                
+#    6    5   -8    4
+#    6    5    4   -8
+#   -2
+#    6    5    4   -8
+#    6    5    4   -8
+# *                            PATTERN NO.   7  passed	                
+#    3    5    1    5
+#    3    5    1    5
+# 000000011 000000101 000000001 000000101
+#    3
+#    0    2   -2    2
+#    0    2   -2    2
+# *                            PATTERN NO.   8  passed	                
+#    7   -7   -7   -3
+#    7   -7   -7   -3
+# 000000111 111111001 111111001 111111101
+#   -2
+#    9   -5   -5   -1
+#    9   -5   -5   -1
+# *                            PATTERN NO.   9  passed	                
+#    6   -4    1    7
+#    7    6    1   -4
+#   -2
+#    7    6    1   -4
+#    7    6    1   -4
+# **************************************************************
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#                          ,                                                       
+#                      ## ]&                          0    ]8                      
+#                      0' ]N         ]D       ]0      B    ]&                      
+#                     ]#__d0gmQ#&    ]K       ]0   ypMMgg,_&H__                    
+#                     ]M0M0F^^`~0    #M       ]M    ~##F~0MNNMN'                   
+#                        _W`    01   #8       ]Q     0&   ]0                       
+#                        p@     0T   0T___  __jM     01    #                       
+#                       yQ      #0   #M00QN#0NN0     &&                            
+#                      _0f    QMMf                   ^#Q0#0NQp                     
+#                      0F        _,,gmgQmpggpayq,__     ``~^~^                     
+#                   _____g,yggpQB00#~^^`7~~Z7#~~MMMMMp,___                         
+#             ,p#000$M~~jpK@M~~         -,        -^P#00H&###BN&&gp,_             
+#             Nf~&6_  pNM0^            -                 ~MQ&q    _B#Mg            
+#            4W    jN0~`                            -       ^0&mmM^  ^Nt           
+#            06  _0#^               -  --   - -               ^M0qg   #M           
+#           ]N  g0~  --         -  -       -                     M#&_  M1          
+#           0Fp0C    ^7W0*NmLc --     -     -          vv#M0MM~    7&x K&          
+#          _DW0 -   -         --     -     -                        ~D#j0          
+#          [0X     -      -   -                               -     - MBQ6         
+#          4f     _pawer&pvve*mv6_- --            ,a*awmmamgxmq_,_     70q         
+#         ]#      6_            _J5               L,       `     ^k -   *M         
+#         0'        `'~~~~~^^~^``        __         ^?~~~~~~~~~~~^       #&        
+#        ]&                       ,r=~~M&NQ0@~~~*,                -  -- ~#t       
+#        #F                     j~       #~        ~c         -          0&       
+#        NC  ,r                 '        f          `              'm   - /Nc      
+#     _g0M  Nf               ]         1          _6               Mmg  1MB#_    
+#    _0@0N0N$   __u             4,       _b_       p!                  ^Agg#M/0&   
+#    Q!    ~QMES`                 ~!+*m*~^  YN**~~`                    NM^``  4Q  
+#   ]W       0n`                       ^*mao*`                     ~~0x#F       0  
+#   0f       ]#~3!                                                    y0        B1 
+#   #f      ;0& -                                                   -QM0g       y$ 
+#   #$      lE~04z                                                    pMB       #F 
+#   ]#      QQ:  -                    *n,____m!                     *T~^01      Q} 
+#    7&   gM#BMg:                                                     /y#0&,   ]0  
+#     W&  ``   MNe_                                                  gM#  ~~  p@   
+#     ]#      ^~RQNp_                                            ppN0T      0f   
+#      #&        -/~*N0gg_                                    _p##05    w  K#    
+#       Qp, ~   -      CPMN                                 *N@@^   ^     /q#'    
+#        Q1    ^   -                                                 ~    ^3#'     
+#         0&_,w-  #        -                              -     N&    -& ##`      
+#          ~N#/t  00                                   -  -       &p ~^_q00        
+#            00u_ 0S         --                               -   Q#  NMB'         
+#              'M##,-                                         :  mB#Q0^            
+#                0K /                                       ^~ zNf              
+#                0H&  ^                                 -_     dE/B&              
+#                #^    -                                   -^   ~-*M              
+#                                                                                  
+#                                                                                  
+#                                                                                  
+#   
+# *                            PATTERN NO.  10 	                
+# *                 Ans :   10,  Your output :    0  at    22000         
+# **************************************************************
+# ** Note: $finish    : PATTERN.v(158)
+#    Time: 220 ns  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task check_ans at PATTERN.v line 158
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.TESTBED
+# Loading work.TESTBED
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.CC
+# Loading work.CC
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.PATTERN
+# Loading work.PATTERN
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+run -all
+#   -4   -5   -7    1
+#    1   -4   -5   -7
+#   -3
+#    4   -1   -2   -4
+#    4   -1   -2   -4
+# *                            PATTERN NO.   0  passed	                
+#   -3    0    7    7
+#   -3    0    7    7
+#    2
+#   -5   -2    5    5
+#   -5   -2    5    5
+# *                            PATTERN NO.   1  passed	                
+#    2   -3   -7   -3
+#    2   -3   -7   -3
+#   -2
+#    4   -1   -5   -1
+#    4   -1   -5   -1
+# *                            PATTERN NO.   2  passed	                
+#   -8   -2    0   -3
+#   -8   -2    0   -3
+#   -2
+#   -8   -2    0   -3
+#   -8   -2    0   -3
+# *                            PATTERN NO.   3  passed	                
+#   -6   -7    7    6
+#   -6   -7    7    6
+#   -2
+#   -6   -7    7    6
+#   -6   -7    7    6
+# *                            PATTERN NO.   4  passed	                
+#    3    1    6   -5
+#    3    1    6   -5
+#   -2
+#    3    1    6   -5
+#    3    1    6   -5
+# *                            PATTERN NO.   5  passed	                
+#    3   -6    3   -3
+#    3   -6    3   -3
+#   -2
+#    3   -6    3   -3
+#    3   -6    3   -3
+# *                            PATTERN NO.   6  passed	                
+#    6    5   -8    4
+#    6    5    4   -8
+#   -2
+#    6    5    4   -8
+#    6    5    4   -8
+# *                            PATTERN NO.   7  passed	                
+#    3    5    1    5
+#    3    5    1    5
+#    3
+#    0    2   -2    2
+#    0    2   -2    2
+# *                            PATTERN NO.   8  passed	                
+#    7   -7   -7   -3
+#    7   -7   -7   -3
+#   -2
+#    9   -5   -5   -1
+#    9   -5   -5   -1
+# *                            PATTERN NO.   9  passed	                
+#    6   -4    1    7
+#   -4    1    6    7
+#   -2
+#   -4    1    6    7
+#   -4    1    6    7
+# *                            PATTERN NO.  10  passed	                
+#    2    1    1    4
+#    2    1    1    4
+#   -2
+#    2    1    1    4
+#    2    1    1    4
+# *                            PATTERN NO.  11  passed	                
+#   -2   -4    1   -5
+#    1   -2   -4   -5
+#   -2
+#    3    0   -2   -3
+#    3    0   -2   -3
+# *                            PATTERN NO.  12  passed	                
+#   -6    7   -6    6
+#   -6    7   -6    6
+#    0
+#   -6    7   -6    6
+#   -6    7   -6    6
+# *                            PATTERN NO.  13  passed	                
+#    5    5    7   -7
+#    5    5    7   -7
+#    0
+#    5    5    7   -7
+#    5    5    7   -7
+# *                            PATTERN NO.  14  passed	                
+#   -3   -5    1   -7
+#   -3   -5    1   -7
+#    0
+#   -3   -5    1   -7
+#   -3   -5    1   -7
+# *                            PATTERN NO.  15  passed	                
+#    0    7   -1   -2
+#    7    0   -1   -2
+#    1
+#    6   -1   -2   -3
+#    6   -1   -2   -3
+# *                            PATTERN NO.  16  passed	                
+#    7   -1   -6   -8
+#   -8   -6   -1    7
+#    1
+#   -8   -6   -1    7
+#   -8   -6   -1    7
+# *                            PATTERN NO.  17  passed	                
+#   -8    6    4    7
+#   -8    6    4    7
+#    2
+#  -10    4    2    5
+#  -10    4    2    5
+# *                            PATTERN NO.  18  passed	                
+#    1   -6    7    5
+#    1   -6    7    5
+#    2
+#    1   -6    7    5
+#    1   -6    7    5
+# *                            PATTERN NO.  19  passed	                
+#   -5   -6    7    1
+#   -6   -5    1    7
+#    2
+#   -6   -5    1    7
+#   -6   -5    1    7
+# *                            PATTERN NO.  20  passed	                
+#    4   -1    2   -5
+#    4    2   -1   -5
+#    0
+#    4    2   -1   -5
+#    4    2   -1   -5
+# *                            PATTERN NO.  21  passed	                
+#   -6    4    3   -6
+#    4    3   -6   -6
+#   -1
+#    5    4   -5   -5
+#    5    4   -5   -5
+# *                            PATTERN NO.  22  passed	                
+#    2    5   -3   -7
+#    2    5   -3   -7
+#    0
+#    2    5   -3   -7
+#    2    5   -3   -7
+# *                            PATTERN NO.  23  passed	                
+#   -6    2    7    7
+#   -6    2    7    7
+#    0
+#   -6    2    7    7
+#   -6    2    7    7
+# *                            PATTERN NO.  24  passed	                
+#    0    1    1    2
+#    0    1    1    2
+#    1
+#   -1    0    0    1
+#   -1    0    0    1
+# *                            PATTERN NO.  25  passed	                
+#    7   -7    5   -8
+#    7   -7    5   -8
+#    1
+#    7   -7    5   -8
+#    7   -7    5   -8
+# *                            PATTERN NO.  26  passed	                
+#    1    4    0    5
+#    5    4    1    0
+#    1
+#    5    4    1    0
+#    5    4    1    0
+# *                            PATTERN NO.  27  passed	                
+#    2   -6   -6   -4
+#   -6   -6   -4    2
+#   -3
+#   -3   -3   -1    5
+#   -3   -3   -1    5
+# *                            PATTERN NO.  28  passed	                
+#    1   -3    4   -7
+#    4    1   -3   -7
+#   -1
+#    5    2   -2   -6
+#    5    2   -2   -6
+# *                            PATTERN NO.  29  passed	                
+#   -7   -6   -5   -3
+#   -7   -6   -5   -3
+#   -5
+#   -2   -1    0    2
+#   -2   -1    0    2
+# *                            PATTERN NO.  30  passed	                
+#    0    4   -6    6
+#    0    4   -6    6
+#    1
+#   -1    3   -7    5
+#   -1    3   -7    5
+# *                            PATTERN NO.  31  passed	                
+#   -8   -4   -3   -3
+#   -8   -4   -3   -3
+#   -4
+#   -4    0    1    1
+#   -4    0    1    1
+# *                            PATTERN NO.  32  passed	                
+#   -8    7   -6   -1
+#   -8    7   -6   -1
+#   -4
+#   -8    7   -6   -1
+#   -8    7   -6   -1
+# *                            PATTERN NO.  33  passed	                
+#   -1   -6    0    6
+#   -6   -1    0    6
+#    0
+#   -6   -1    0    6
+#   -6   -1    0    6
+# *                            PATTERN NO.  34  passed	                
+#    7   -4   -7   -3
+#    7   -3   -4   -7
+#    0
+#    7   -3   -4   -7
+#    7   -3   -4   -7
+# *                            PATTERN NO.  35  passed	                
+#    4   -3   -5   -8
+#    4   -3   -5   -8
+#    0
+#    4   -3   -5   -8
+#    4   -3   -5   -8
+# *                            PATTERN NO.  36  passed	                
+#    6   -6    5   -3
+#    6    5   -3   -6
+#    0
+#    6    5   -3   -6
+#    6    5   -3   -6
+# *                            PATTERN NO.  37  passed	                
+#    6   -2   -3   -6
+#   -6   -3   -2    6
+#    0
+#   -6   -3   -2    6
+#   -6   -3   -2    6
+# *                            PATTERN NO.  38  passed	                
+#   -7   -4   -4   -8
+#   -7   -4   -4   -8
+#    0
+#   -7   -4   -4   -8
+#   -7   -4   -4   -8
+# *                            PATTERN NO.  39  passed	                
+#    4   -3   -3   -3
+#    4   -3   -3   -3
+#   -1
+#    5   -2   -2   -2
+#    5   -2   -2   -2
+# *                            PATTERN NO.  40  passed	                
+#   -1   -3    6   -8
+#    6   -1   -3   -8
+#   -1
+#    6   -1   -3   -8
+#    6   -1   -3   -8
+# *                            PATTERN NO.  41  passed	                
+#   -2    2    1   -6
+#   -6   -2    1    2
+#   -1
+#   -6   -2    1    2
+#   -6   -2    1    2
+# *                            PATTERN NO.  42  passed	                
+#    4   -8    1   -5
+#   -8   -5    1    4
+#   -2
+#   -6   -3    3    6
+#   -6   -3    3    6
+# *                            PATTERN NO.  43  passed	                
+#   -3   -1   -3   -1
+#   -3   -3   -1   -1
+#   -2
+#   -3   -3   -1   -1
+#   -3   -3   -1   -1
+# *                            PATTERN NO.  44  passed	                
+#   -5    0    6   -3
+#   -5   -3    0    6
+#    0
+#   -5   -3    0    6
+#   -5   -3    0    6
+# *                            PATTERN NO.  45  passed	                
+#    5   -3   -4    6
+#    6    5   -3   -4
+#    1
+#    5    4   -4   -5
+#    5    4   -4   -5
+# *                            PATTERN NO.  46  passed	                
+#   -4   -1    2   -7
+#   -7   -4   -1    2
+#    1
+#   -7   -4   -1    2
+#   -7   -4   -1    2
+# *                            PATTERN NO.  47  passed	                
+#    5    5    7    7
+#    5    5    7    7
+#    6
+#   -1   -1    1    1
+#   -1   -1    1    1
+# *                            PATTERN NO.  48  passed	                
+#    0    1    6   -5
+#    0    1    6   -5
+#    0
+#    0    1    6   -5
+#    0    1    6   -5
+# *                            PATTERN NO.  49  passed	                
+#   -4    5   -3    7
+#   -4    5   -3    7
+#    1
+#   -5    4   -4    6
+#   -5    4   -4    6
+# *                            PATTERN NO.  50  passed	                
+#   -8    0   -4   -3
+#   -8    0   -4   -3
+#   -3
+#   -5    3   -1    0
+#   -5    3   -1    0
+# *                            PATTERN NO.  51  passed	                
+#   -6    3    4   -3
+#   -6    3    4   -3
+#    0
+#   -6    3    4   -3
+#   -6    3    4   -3
+# *                            PATTERN NO.  52  passed	                
+#    5   -8    6   -6
+#    5   -8    6   -6
+#    0
+#    5   -8    6   -6
+#    5   -8    6   -6
+# *                            PATTERN NO.  53  passed	                
+#    0   -3    5   -6
+#    0   -3    5   -6
+#   -1
+#    1   -2    6   -5
+#    1   -2    6   -5
+# *                            PATTERN NO.  54  passed	                
+#    4    7   -3    6
+#   -3    4    6    7
+#   -1
+#   -3    4    6    7
+#   -3    4    6    7
+# *                            PATTERN NO.  55  passed	                
+#   -4   -8    7   -5
+#    7   -4   -5   -8
+#   -1
+#    7   -4   -5   -8
+#    7   -4   -5   -8
+# *                            PATTERN NO.  56  passed	                
+#    1    0   -3    7
+#    1    0   -3    7
+#    1
+#    0   -1   -4    6
+#    0   -1   -4    6
+# *                            PATTERN NO.  57  passed	                
+#   -6    6   -6   -1
+#   -6    6   -6   -1
+#   -1
+#   -5    7   -5    0
+#   -5    7   -5    0
+# *                            PATTERN NO.  58  passed	                
+#   -8   -5   -1    7
+#   -8   -5   -1    7
+#   -1
+#   -7   -4    0    8
+#   -7   -4    0    8
+# *                            PATTERN NO.  59  passed	                
+#    6   -7    4    2
+#   -7    2    4    6
+#    1
+#   -8    1    3    5
+#   -8    1    3    5
+# *                            PATTERN NO.  60  passed	                
+#   -3    5   -4   -2
+#   -3    5   -4   -2
+#   -1
+#   -2    6   -3   -1
+#   -2    6   -3   -1
+# *                            PATTERN NO.  61  passed	                
+#   -1   -8   -2    6
+#   -1   -8   -2    6
+#   -1
+#    0   -7   -1    7
+#    0   -7   -1    7
+# *                            PATTERN NO.  62  passed	                
+#   -4    7   -4   -6
+#   -6   -4   -4    7
+#   -1
+#   -5   -3   -3    8
+#   -5   -3   -3    8
+# *                            PATTERN NO.  63  passed	                
+#    4   -8   -4   -5
+#    4   -8   -4   -5
+#   -3
+#    7   -5   -1   -2
+#    7   -5   -1   -2
+# *                            PATTERN NO.  64  passed	                
+#   -6   -7   -4    1
+#   -7   -6   -4    1
+#   -4
+#   -3   -2    0    5
+#   -3   -2    0    5
+# *                            PATTERN NO.  65  passed	                
+#   -1   -1    6    2
+#   -1   -1    6    2
+#   -4
+#   -1   -1    6    2
+#   -1   -1    6    2
+# *                            PATTERN NO.  66  passed	                
+#   -1   -6    7   -8
+#   -8   -6   -1    7
+#   -4
+#   -8   -6   -1    7
+#   -8   -6   -1    7
+# *                            PATTERN NO.  67  passed	                
+#   -8    6   -4   -3
+#   -8    6   -4   -3
+#   -2
+#   -6    8   -2   -1
+#   -6    8   -2   -1
+# *                            PATTERN NO.  68  passed	                
+#    4    2   -8   -8
+#    4    2   -8   -8
+#   -2
+#    6    4   -6   -6
+#    6    4   -6   -6
+# *                            PATTERN NO.  69  passed	                
+#    4    2    2   -3
+#    4    2    2   -3
+#   -2
+#    4    2    2   -3
+#    4    2    2   -3
+# *                            PATTERN NO.  70  passed	                
+#   -2   -3    0    4
+#   -2   -3    0    4
+#    0
+#   -2   -3    0    4
+#   -2   -3    0    4
+# *                            PATTERN NO.  71  passed	                
+#   -1   -2   -4    5
+#   -4   -2   -1    5
+#    0
+#   -4   -2   -1    5
+#   -4   -2   -1    5
+# *                            PATTERN NO.  72  passed	                
+#    5   -1   -3   -1
+#    5   -1   -3   -1
+#    0
+#    5   -1   -3   -1
+#    5   -1   -3   -1
+# *                            PATTERN NO.  73  passed	                
+#    0   -5   -8    5
+#   -8   -5    0    5
+#    0
+#   -8   -5    0    5
+#   -8   -5    0    5
+# *                            PATTERN NO.  74  passed	                
+#    6   -8    0    7
+#    6   -8    0    7
+#    0
+#    6   -8    0    7
+#    6   -8    0    7
+# *                            PATTERN NO.  75  passed	                
+#   -8   -7   -6   -6
+#   -8   -7   -6   -6
+#   -6
+#   -2   -1    0    0
+#   -2   -1    0    0
+# *                            PATTERN NO.  76  passed	                
+#    2   -8   -5    7
+#    7    2   -5   -8
+#   -6
+#    7    2   -5   -8
+#    7    2   -5   -8
+# *                            PATTERN NO.  77  passed	                
+#    4    7    7    2
+#    7    7    4    2
+#    5
+#    2    2   -1   -3
+#    2    2   -1   -3
+# *                            PATTERN NO.  78  passed	                
+#    3   -4    7   -4
+#    7    3   -4   -4
+#    0
+#    7    3   -4   -4
+#    7    3   -4   -4
+# *                            PATTERN NO.  79  passed	                
+#   -1   -7   -7   -7
+#   -1   -7   -7   -7
+#    0
+#   -1   -7   -7   -7
+#   -1   -7   -7   -7
+# *                            PATTERN NO.  80  passed	                
+#    5   -2    0    7
+#    7    5    0   -2
+#    0
+#    7    5    0   -2
+#    7    5    0   -2
+# *                            PATTERN NO.  81  passed	                
+#   -1    7   -1    0
+#    7    0   -1   -1
+#    0
+#    7    0   -1   -1
+#    7    0   -1   -1
+# *                            PATTERN NO.  82  passed	                
+#   -5   -7   -2    5
+#    5   -2   -5   -7
+#    0
+#    5   -2   -5   -7
+#    5   -2   -5   -7
+# *                            PATTERN NO.  83  passed	                
+#    2   -4    0    0
+#    2    0    0   -4
+#    0
+#    2    0    0   -4
+#    2    0    0   -4
+# *                            PATTERN NO.  84  passed	                
+#    5   -6    4   -5
+#    5    4   -5   -6
+#    0
+#    5    4   -5   -6
+#    5    4   -5   -6
+# *                            PATTERN NO.  85  passed	                
+#   -1   -4   -7   -6
+#   -1   -4   -7   -6
+#    0
+#   -1   -4   -7   -6
+#   -1   -4   -7   -6
+# *                            PATTERN NO.  86  passed	                
+#   -5   -6   -7    7
+#    7   -5   -6   -7
+#    0
+#    7   -5   -6   -7
+#    7   -5   -6   -7
+# *                            PATTERN NO.  87  passed	                
+#    6   -3    6   -1
+#    6    6   -1   -3
+#    2
+#    4    4   -3   -5
+#    4    4   -3   -5
+# *                            PATTERN NO.  88  passed	                
+#   -6    2    3    7
+#   -6    2    3    7
+#    1
+#   -7    1    2    6
+#   -7    1    2    6
+# *                            PATTERN NO.  89  passed	                
+#    1    6   -5    0
+#    1    6   -5    0
+#    0
+#    1    6   -5    0
+#    1    6   -5    0
+# *                            PATTERN NO.  90  passed	                
+#    7    6    3   -7
+#   -7    3    6    7
+#    0
+#   -7    3    6    7
+#   -7    3    6    7
+# *                            PATTERN NO.  91  passed	                
+#    0    3   -8    2
+#   -8    0    2    3
+#    0
+#   -8    0    2    3
+#   -8    0    2    3
+# *                            PATTERN NO.  92  passed	                
+#   -6   -4   -1   -3
+#   -6   -4   -1   -3
+#    0
+#   -6   -4   -1   -3
+#   -6   -4   -1   -3
+# *                            PATTERN NO.  93  passed	                
+#    0    7    4    0
+#    0    7    4    0
+#    2
+#   -2    5    2   -2
+#   -2    5    2   -2
+# *                            PATTERN NO.  94  passed	                
+#    2    0   -2    3
+#    2    0   -2    3
+#    0
+#    2    0   -2    3
+#    2    0   -2    3
+# *                            PATTERN NO.  95  passed	                
+#   -4    1   -8   -8
+#   -8   -8   -4    1
+#   -4
+#   -4   -4    0    5
+#   -4   -4    0    5
+# *                            PATTERN NO.  96  passed	                
+#    5   -7   -6   -7
+#    5   -6   -7   -7
+#   -3
+#    8   -3   -4   -4
+#    8   -3   -4   -4
+# *                            PATTERN NO.  97  passed	                
+#   -8   -4    7   -6
+#   -8   -4    7   -6
+#   -2
+#   -6   -2    9   -4
+#   -6   -2    9   -4
+# *                            PATTERN NO.  98  passed	                
+#    0   -7   -6    0
+#    0   -7   -6    0
+#   -2
+#    0   -7   -6    0
+#    0   -7   -6    0
+# *                            PATTERN NO.  99  passed	                
+#                                                                                       
+#                                                                                       
+#                                                     _    _,__    _                    
+#                                               _pgN0MM00M0MMMMM0M000MNNpgpppq_         
+#                                               0M^'                     `^~7M0&        
+#                                               &                              0        
+#                                              ]#                              0        
+#                                              ]f                              0        
+#                                              4f                              0        
+#                                              0                              ]0        
+#                                              #                              ]0        
+#                                              #                              ]0        
+#                                             ]&                              4#        
+#                                             ]#                              ##        
+#                                             jA                              MA        
+#                                             05                              0f        
+#                                             M                               0         
+#                                             0                              ]0         
+#                                            ]0                              4#         
+#                                            j0                              Bf         
+#                                            #0                              B!         
+#                                            B&        _______,pqggpgpqpM0M0N0          
+#                                            000NMMM0MM000MMMM~~~~~~~'^`^```B0          
+#                                           ]0P~                            ]#          
+#                                           ]#                              MP          
+#                                           Q&                              0f          
+#                                           #&                             ]06  _       
+#                                           0f                         _,,p0000M00      
+#                                           0'            __,,gggp0MM00000000~~``       
+#                                       _ _j0q,gggpgp0MMM000MM00000000000000&           
+#                               00M00M000M000MM@M~~~^    ]0     ^~MM00000000f           
+#     __,      ,ggg_             ~~~0F~`]0~              ]0           '70000f           
+#    gMM0g   qMF~^'Mp               Q   Q0               ]#              ~#0            
+#   #'   M0p05     '0               #   #&               4#               ]0            
+#  gf     MM'       0               #   Q#               0M               j&            
+#  0      ^^       _0               #   `0_             0@             _yQMc            
+# M&               #H               H    '0g          p#M           _y*^ J0             
+# 4&              j#               ]&     '0MNgggpgg00@'         _p&~]  j0`             
+#  0             jM'               i6      0f~~~~'~~        _,g+~ E  ] p0f              
+#  M&           p0'                0#      #6          __yaMP`    #  jM0'               
+#   Bp        _g0                 N00&     '0p___,ma#V'^    6     &g00~                 
+#    M&     _pMP                 00000&      M0#_   f       !  __p0M~                   
+#     '0gpgg0~                 _0000000&       ~M0Np&______gQp0MM^                      
+#       ~M7^                  _000000000A          `~~MMMMF~~                           
+#                             '~~'~~` `                                                 
+#                                                                                       
+#                                                                                       
+# -------------------------------------------------------------------
+#                          Congratulations!                          
+#                   You have passed all patterns!                    
+# -------------------------------------------------------------------
+# ** Note: $finish    : PATTERN.v(228)
+#    Time: 2 us  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task YOU_PASS_task at PATTERN.v line 228
+# wrong # args: should be "load file ?pkg? ?interp?"
+# Compile of PATTERN.v was successful.
+# Compile of TESTBED.v was successful.
+# Compile of CC.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.TESTBED
+# Loading work.TESTBED
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.CC
+# Loading work.CC
+# Refreshing D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work.PATTERN
+# Loading work.PATTERN
+run -all
+# *                            PATTERN NO.   0  passed	                
+# *                            PATTERN NO.   1  passed	                
+# *                            PATTERN NO.   2  passed	                
+# *                            PATTERN NO.   3  passed	                
+# *                            PATTERN NO.   4  passed	                
+# *                            PATTERN NO.   5  passed	                
+# *                            PATTERN NO.   6  passed	                
+# *                            PATTERN NO.   7  passed	                
+# *                            PATTERN NO.   8  passed	                
+# *                            PATTERN NO.   9  passed	                
+# *                            PATTERN NO.  10  passed	                
+# *                            PATTERN NO.  11  passed	                
+# *                            PATTERN NO.  12  passed	                
+# *                            PATTERN NO.  13  passed	                
+# *                            PATTERN NO.  14  passed	                
+# *                            PATTERN NO.  15  passed	                
+# *                            PATTERN NO.  16  passed	                
+# *                            PATTERN NO.  17  passed	                
+# *                            PATTERN NO.  18  passed	                
+# *                            PATTERN NO.  19  passed	                
+# *                            PATTERN NO.  20  passed	                
+# *                            PATTERN NO.  21  passed	                
+# *                            PATTERN NO.  22  passed	                
+# *                            PATTERN NO.  23  passed	                
+# *                            PATTERN NO.  24  passed	                
+# *                            PATTERN NO.  25  passed	                
+# *                            PATTERN NO.  26  passed	                
+# *                            PATTERN NO.  27  passed	                
+# *                            PATTERN NO.  28  passed	                
+# *                            PATTERN NO.  29  passed	                
+# *                            PATTERN NO.  30  passed	                
+# *                            PATTERN NO.  31  passed	                
+# *                            PATTERN NO.  32  passed	                
+# *                            PATTERN NO.  33  passed	                
+# *                            PATTERN NO.  34  passed	                
+# *                            PATTERN NO.  35  passed	                
+# *                            PATTERN NO.  36  passed	                
+# *                            PATTERN NO.  37  passed	                
+# *                            PATTERN NO.  38  passed	                
+# *                            PATTERN NO.  39  passed	                
+# *                            PATTERN NO.  40  passed	                
+# *                            PATTERN NO.  41  passed	                
+# *                            PATTERN NO.  42  passed	                
+# *                            PATTERN NO.  43  passed	                
+# *                            PATTERN NO.  44  passed	                
+# *                            PATTERN NO.  45  passed	                
+# *                            PATTERN NO.  46  passed	                
+# *                            PATTERN NO.  47  passed	                
+# *                            PATTERN NO.  48  passed	                
+# *                            PATTERN NO.  49  passed	                
+# *                            PATTERN NO.  50  passed	                
+# *                            PATTERN NO.  51  passed	                
+# *                            PATTERN NO.  52  passed	                
+# *                            PATTERN NO.  53  passed	                
+# *                            PATTERN NO.  54  passed	                
+# *                            PATTERN NO.  55  passed	                
+# *                            PATTERN NO.  56  passed	                
+# *                            PATTERN NO.  57  passed	                
+# *                            PATTERN NO.  58  passed	                
+# *                            PATTERN NO.  59  passed	                
+# *                            PATTERN NO.  60  passed	                
+# *                            PATTERN NO.  61  passed	                
+# *                            PATTERN NO.  62  passed	                
+# *                            PATTERN NO.  63  passed	                
+# *                            PATTERN NO.  64  passed	                
+# *                            PATTERN NO.  65  passed	                
+# *                            PATTERN NO.  66  passed	                
+# *                            PATTERN NO.  67  passed	                
+# *                            PATTERN NO.  68  passed	                
+# *                            PATTERN NO.  69  passed	                
+# *                            PATTERN NO.  70  passed	                
+# *                            PATTERN NO.  71  passed	                
+# *                            PATTERN NO.  72  passed	                
+# *                            PATTERN NO.  73  passed	                
+# *                            PATTERN NO.  74  passed	                
+# *                            PATTERN NO.  75  passed	                
+# *                            PATTERN NO.  76  passed	                
+# *                            PATTERN NO.  77  passed	                
+# *                            PATTERN NO.  78  passed	                
+# *                            PATTERN NO.  79  passed	                
+# *                            PATTERN NO.  80  passed	                
+# *                            PATTERN NO.  81  passed	                
+# *                            PATTERN NO.  82  passed	                
+# *                            PATTERN NO.  83  passed	                
+# *                            PATTERN NO.  84  passed	                
+# *                            PATTERN NO.  85  passed	                
+# *                            PATTERN NO.  86  passed	                
+# *                            PATTERN NO.  87  passed	                
+# *                            PATTERN NO.  88  passed	                
+# *                            PATTERN NO.  89  passed	                
+# *                            PATTERN NO.  90  passed	                
+# *                            PATTERN NO.  91  passed	                
+# *                            PATTERN NO.  92  passed	                
+# *                            PATTERN NO.  93  passed	                
+# *                            PATTERN NO.  94  passed	                
+# *                            PATTERN NO.  95  passed	                
+# *                            PATTERN NO.  96  passed	                
+# *                            PATTERN NO.  97  passed	                
+# *                            PATTERN NO.  98  passed	                
+# *                            PATTERN NO.  99  passed	                
+#                                                                                       
+#                                                                                       
+#                                                     _    _,__    _                    
+#                                               _pgN0MM00M0MMMMM0M000MNNpgpppq_         
+#                                               0M^'                     `^~7M0&        
+#                                               &                              0        
+#                                              ]#                              0        
+#                                              ]f                              0        
+#                                              4f                              0        
+#                                              0                              ]0        
+#                                              #                              ]0        
+#                                              #                              ]0        
+#                                             ]&                              4#        
+#                                             ]#                              ##        
+#                                             jA                              MA        
+#                                             05                              0f        
+#                                             M                               0         
+#                                             0                              ]0         
+#                                            ]0                              4#         
+#                                            j0                              Bf         
+#                                            #0                              B!         
+#                                            B&        _______,pqggpgpqpM0M0N0          
+#                                            000NMMM0MM000MMMM~~~~~~~'^`^```B0          
+#                                           ]0P~                            ]#          
+#                                           ]#                              MP          
+#                                           Q&                              0f          
+#                                           #&                             ]06  _       
+#                                           0f                         _,,p0000M00      
+#                                           0'            __,,gggp0MM00000000~~``       
+#                                       _ _j0q,gggpgp0MMM000MM00000000000000&           
+#                               00M00M000M000MM@M~~~^    ]0     ^~MM00000000f           
+#     __,      ,ggg_             ~~~0F~`]0~              ]0           '70000f           
+#    gMM0g   qMF~^'Mp               Q   Q0               ]#              ~#0            
+#   #'   M0p05     '0               #   #&               4#               ]0            
+#  gf     MM'       0               #   Q#               0M               j&            
+#  0      ^^       _0               #   `0_             0@             _yQMc            
+# M&               #H               H    '0g          p#M           _y*^ J0             
+# 4&              j#               ]&     '0MNgggpgg00@'         _p&~]  j0`             
+#  0             jM'               i6      0f~~~~'~~        _,g+~ E  ] p0f              
+#  M&           p0'                0#      #6          __yaMP`    #  jM0'               
+#   Bp        _g0                 N00&     '0p___,ma#V'^    6     &g00~                 
+#    M&     _pMP                 00000&      M0#_   f       !  __p0M~                   
+#     '0gpgg0~                 _0000000&       ~M0Np&______gQp0MM^                      
+#       ~M7^                  _000000000A          `~~MMMMF~~                           
+#                             '~~'~~` `                                                 
+#                                                                                       
+#                                                                                       
+# -------------------------------------------------------------------
+#                          Congratulations!                          
+#                   You have passed all patterns!                    
+# -------------------------------------------------------------------
+# ** Note: $finish    : PATTERN.v(228)
+#    Time: 2 us  Iteration: 1  Instance: /TESTBED/My_PATTERN
+# 1
+# Break in Task YOU_PASS_task at PATTERN.v line 228
+# wrong # args: should be "load file ?pkg? ?interp?"
+# End time: 00:57:08 on Oct 25,2019, Elapsed time: 0:17:52
+# Errors: 9, Warnings: 8

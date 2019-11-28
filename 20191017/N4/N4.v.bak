@@ -1,0 +1,101 @@
+module N4(clk, reset, row, col, state, row_time, col_time);
+input clk, reset;
+output reg [2:0] row, col;
+output reg [2:0] state;
+output reg [5:0] row_time, col_time;
+reg [2:0] NextState;
+
+
+
+always@(posedge clk) begin
+	if(reset == 0) begin
+		state <= 0;
+		row_time <= 30;
+		col_time <= 0;
+	end else begin
+		state <= NextState;
+        
+        row_time <= row_time == 0 ? (col_time == 2 ? 62 : 0) : row_time -1 ;
+        col_time <= col_time == 0 ? (row_time == 2 ? 32 : 0) : col_time -1 ;
+		
+	end
+
+end
+
+always@(row_time, col_time) begin
+    case(state)
+			0:begin 
+				if(row_time == 7)begin
+					NextState = 1;
+					
+				end else begin
+					NextState = 0;
+
+				end
+			end
+			1:begin 
+				if(row_time == 2)begin
+					NextState = 2;
+				end else begin
+					NextState = 1;
+					
+				end
+			end
+			2:begin 
+				    NextState = 3;
+				
+			end
+			3:begin 
+				if(col_time == 7)begin
+					NextState = 4;
+				end else begin
+					NextState = 3;
+					
+				end
+			end
+			4:begin 
+				if(col_time == 2)begin
+					NextState = 5;
+				end else begin
+					NextState = 4;
+				end
+			end
+			5:begin 
+				NextState = 0;
+			end
+		
+		endcase
+
+end
+
+always @(state) begin
+    case(state)
+        0:begin
+            row = 3'b100;
+            col = 3'b001;
+        end
+        1:begin
+            row = 3'b100;
+            col = 3'b010;
+        end
+        2:begin
+            row = 3'b100;
+            col = 3'b100;
+        end
+        3:begin
+            row = 3'b001;
+            col = 3'b100;
+        end
+        4:begin
+            row = 3'b010;
+            col = 3'b100;
+        end
+        5:begin
+            row = 3'b100;
+            col = 3'b100;
+        end
+
+    endcase
+end
+
+endmodule
