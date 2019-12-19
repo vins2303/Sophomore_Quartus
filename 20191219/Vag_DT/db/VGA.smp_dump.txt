@@ -1,0 +1,7 @@
+
+State Machine - |VGA|DT:DT_U|RW_State
+Name RW_State.RW_State_NULL RW_State.RW_State_Wire RW_State.RW_State_Read RW_State.Rw_State_Addr 
+RW_State.Rw_State_Addr 0 0 0 0 
+RW_State.RW_State_Read 0 0 1 1 
+RW_State.RW_State_Wire 0 1 0 1 
+RW_State.RW_State_NULL 1 0 0 1 

@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="VGA">
+		<CBX_INST_ENTRY INSTANCE_NAME="|VGA|lpm_mult:Mult0" CBX_FILE_NAME="mult_p5t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|VGA|lpm_mult:Mult1" CBX_FILE_NAME="mult_p5t.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
