@@ -1,5 +1,5 @@
 Fitter report for VGA
-Thu Dec 19 23:42:58 2019
+Fri Dec 20 02:28:46 2019
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -72,15 +72,15 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Fitter Summary                                                                  ;
 +------------------------------------+--------------------------------------------+
-; Fitter Status                      ; Successful - Thu Dec 19 23:42:58 2019      ;
+; Fitter Status                      ; Successful - Fri Dec 20 02:28:46 2019      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; VGA                                        ;
 ; Top-level Entity Name              ; VGA                                        ;
 ; Family                             ; Cyclone IV E                               ;
 ; Device                             ; EP4CE115F29C7                              ;
 ; Timing Models                      ; Final                                      ;
-; Total logic elements               ; 379 / 114,480 ( < 1 % )                    ;
-;     Total combinational functions  ; 355 / 114,480 ( < 1 % )                    ;
+; Total logic elements               ; 385 / 114,480 ( < 1 % )                    ;
+;     Total combinational functions  ; 365 / 114,480 ( < 1 % )                    ;
 ;     Dedicated logic registers      ; 160 / 114,480 ( < 1 % )                    ;
 ; Total registers                    ; 160                                        ;
 ; Total pins                         ; 73 / 529 ( 14 % )                          ;
@@ -158,12 +158,12 @@ applicable agreement for further details.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.53        ;
+; Average used               ; 1.95        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;  17.6%      ;
+;     Processors 2-4         ;  31.8%      ;
 ;     Processors 5-8         ;   0.0%      ;
 +----------------------------+-------------+
 
@@ -281,8 +281,8 @@ applicable agreement for further details.
 ; Type                ; Total [A + B]      ; From Design Partitions [A] ; From Rapid Recompile [B] ;
 +---------------------+--------------------+----------------------------+--------------------------+
 ; Placement (by node) ;                    ;                            ;                          ;
-;     -- Requested    ; 0.00 % ( 0 / 693 ) ; 0.00 % ( 0 / 693 )         ; 0.00 % ( 0 / 693 )       ;
-;     -- Achieved     ; 0.00 % ( 0 / 693 ) ; 0.00 % ( 0 / 693 )         ; 0.00 % ( 0 / 693 )       ;
+;     -- Requested    ; 0.00 % ( 0 / 703 ) ; 0.00 % ( 0 / 703 )         ; 0.00 % ( 0 / 703 )       ;
+;     -- Achieved     ; 0.00 % ( 0 / 703 ) ; 0.00 % ( 0 / 703 )         ; 0.00 % ( 0 / 703 )       ;
 ;                     ;                    ;                            ;                          ;
 ; Routing (by net)    ;                    ;                            ;                          ;
 ;     -- Requested    ; 0.00 % ( 0 / 0 )   ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
@@ -305,7 +305,7 @@ applicable agreement for further details.
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 ; Partition Name                 ; Preservation Achieved ; Preservation Level Used ; Netlist Type Used ; Preservation Method ; Notes ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
-; Top                            ; 0.00 % ( 0 / 683 )    ; N/A                     ; Source File       ; N/A                 ;       ;
+; Top                            ; 0.00 % ( 0 / 693 )    ; N/A                     ; Source File       ; N/A                 ;       ;
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 10 )     ; N/A                     ; Source File       ; N/A                 ;       ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 
@@ -321,26 +321,26 @@ The pin-out file can be found in D:/Code/school/Sophomore/verilog2/20191219/Vag_
 +---------------------------------------------+-------------------------+
 ; Resource                                    ; Usage                   ;
 +---------------------------------------------+-------------------------+
-; Total logic elements                        ; 379 / 114,480 ( < 1 % ) ;
-;     -- Combinational with no register       ; 219                     ;
-;     -- Register only                        ; 24                      ;
-;     -- Combinational with a register        ; 136                     ;
+; Total logic elements                        ; 385 / 114,480 ( < 1 % ) ;
+;     -- Combinational with no register       ; 225                     ;
+;     -- Register only                        ; 20                      ;
+;     -- Combinational with a register        ; 140                     ;
 ;                                             ;                         ;
 ; Logic element usage by number of LUT inputs ;                         ;
-;     -- 4 input functions                    ; 133                     ;
-;     -- 3 input functions                    ; 94                      ;
-;     -- <=2 input functions                  ; 128                     ;
-;     -- Register only                        ; 24                      ;
+;     -- 4 input functions                    ; 137                     ;
+;     -- 3 input functions                    ; 97                      ;
+;     -- <=2 input functions                  ; 131                     ;
+;     -- Register only                        ; 20                      ;
 ;                                             ;                         ;
 ; Logic elements by mode                      ;                         ;
-;     -- normal mode                          ; 227                     ;
+;     -- normal mode                          ; 237                     ;
 ;     -- arithmetic mode                      ; 128                     ;
 ;                                             ;                         ;
 ; Total registers*                            ; 160 / 117,053 ( < 1 % ) ;
 ;     -- Dedicated logic registers            ; 160 / 114,480 ( < 1 % ) ;
 ;     -- I/O registers                        ; 0 / 2,573 ( 0 % )       ;
 ;                                             ;                         ;
-; Total LABs:  partially or completely used   ; 29 / 7,155 ( < 1 % )    ;
+; Total LABs:  partially or completely used   ; 30 / 7,155 ( < 1 % )    ;
 ; Virtual pins                                ; 0                       ;
 ; I/O pins                                    ; 73 / 529 ( 14 % )       ;
 ;     -- Clock pins                           ; 1 / 7 ( 14 % )          ;
@@ -358,11 +358,11 @@ The pin-out file can be found in D:/Code/school/Sophomore/verilog2/20191219/Vag_
 ; ASMI blocks                                 ; 0 / 1 ( 0 % )           ;
 ; Impedance control blocks                    ; 0 / 4 ( 0 % )           ;
 ; Average interconnect usage (total/H/V)      ; 0% / 0% / 0%            ;
-; Peak interconnect usage (total/H/V)         ; 3% / 2% / 4%            ;
-; Maximum fan-out                             ; 93                      ;
-; Highest non-global fan-out                  ; 93                      ;
-; Total fan-out                               ; 1832                    ;
-; Average fan-out                             ; 2.56                    ;
+; Peak interconnect usage (total/H/V)         ; 4% / 3% / 4%            ;
+; Maximum fan-out                             ; 94                      ;
+; Highest non-global fan-out                  ; 94                      ;
+; Total fan-out                               ; 1858                    ;
+; Average fan-out                             ; 2.57                    ;
 +---------------------------------------------+-------------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
 
@@ -375,26 +375,26 @@ The pin-out file can be found in D:/Code/school/Sophomore/verilog2/20191219/Vag_
 +---------------------------------------------+------------------------+--------------------------------+
 ; Difficulty Clustering Region                ; Low                    ; Low                            ;
 ;                                             ;                        ;                                ;
-; Total logic elements                        ; 379 / 114480 ( < 1 % ) ; 0 / 114480 ( 0 % )             ;
-;     -- Combinational with no register       ; 219                    ; 0                              ;
-;     -- Register only                        ; 24                     ; 0                              ;
-;     -- Combinational with a register        ; 136                    ; 0                              ;
+; Total logic elements                        ; 385 / 114480 ( < 1 % ) ; 0 / 114480 ( 0 % )             ;
+;     -- Combinational with no register       ; 225                    ; 0                              ;
+;     -- Register only                        ; 20                     ; 0                              ;
+;     -- Combinational with a register        ; 140                    ; 0                              ;
 ;                                             ;                        ;                                ;
 ; Logic element usage by number of LUT inputs ;                        ;                                ;
-;     -- 4 input functions                    ; 133                    ; 0                              ;
-;     -- 3 input functions                    ; 94                     ; 0                              ;
-;     -- <=2 input functions                  ; 128                    ; 0                              ;
-;     -- Register only                        ; 24                     ; 0                              ;
+;     -- 4 input functions                    ; 137                    ; 0                              ;
+;     -- 3 input functions                    ; 97                     ; 0                              ;
+;     -- <=2 input functions                  ; 131                    ; 0                              ;
+;     -- Register only                        ; 20                     ; 0                              ;
 ;                                             ;                        ;                                ;
 ; Logic elements by mode                      ;                        ;                                ;
-;     -- normal mode                          ; 227                    ; 0                              ;
+;     -- normal mode                          ; 237                    ; 0                              ;
 ;     -- arithmetic mode                      ; 128                    ; 0                              ;
 ;                                             ;                        ;                                ;
 ; Total registers                             ; 160                    ; 0                              ;
 ;     -- Dedicated logic registers            ; 160 / 114480 ( < 1 % ) ; 0 / 114480 ( 0 % )             ;
 ;     -- I/O registers                        ; 0                      ; 0                              ;
 ;                                             ;                        ;                                ;
-; Total LABs:  partially or completely used   ; 29 / 7155 ( < 1 % )    ; 0 / 7155 ( 0 % )               ;
+; Total LABs:  partially or completely used   ; 30 / 7155 ( < 1 % )    ; 0 / 7155 ( 0 % )               ;
 ;                                             ;                        ;                                ;
 ; Virtual pins                                ; 0                      ; 0                              ;
 ; I/O pins                                    ; 73                     ; 0                              ;
@@ -410,8 +410,8 @@ The pin-out file can be found in D:/Code/school/Sophomore/verilog2/20191219/Vag_
 ;     -- Registered Output Connections        ; 0                      ; 0                              ;
 ;                                             ;                        ;                                ;
 ; Internal Connections                        ;                        ;                                ;
-;     -- Total Connections                    ; 1919                   ; 5                              ;
-;     -- Registered Connections               ; 678                    ; 0                              ;
+;     -- Total Connections                    ; 1945                   ; 5                              ;
+;     -- Registered Connections               ; 701                    ; 0                              ;
 ;                                             ;                        ;                                ;
 ; External Connections                        ;                        ;                                ;
 ;     -- Top                                  ; 32                     ; 0                              ;
@@ -445,7 +445,7 @@ The pin-out file can be found in D:/Code/school/Sophomore/verilog2/20191219/Vag_
 +----------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+
 ; DT_bt    ; R24   ; 5        ; 115          ; 35           ; 21           ; 2                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
 ; clk      ; Y2    ; 2        ; 0            ; 36           ; 14           ; 73                    ; 0                  ; yes    ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
-; rst      ; M23   ; 6        ; 115          ; 40           ; 7            ; 93                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
+; rst      ; M23   ; 6        ; 115          ; 40           ; 7            ; 94                    ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
 ; write_bt ; N21   ; 6        ; 115          ; 42           ; 14           ; 5                     ; 0                  ; no     ; no             ; no            ; yes             ; no       ; Off          ; 2.5 V        ; --                        ; User                 ;
 +----------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+---------------+-----------------+----------+--------------+--------------+---------------------------+----------------------+
 
@@ -1376,8 +1376,8 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +---------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------------------------------+--------------+
 ; Compilation Hierarchy Node      ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name                         ; Library Name ;
 +---------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+---------------------------------------------+--------------+
-; |VGA                            ; 379 (237)   ; 160 (114)                 ; 0 (0)         ; 0           ; 0    ; 4            ; 0       ; 2         ; 73   ; 0            ; 219 (124)    ; 24 (24)           ; 136 (90)         ; |VGA                                        ; work         ;
-;    |DT:DT_U|                    ; 142 (142)   ; 46 (46)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 95 (95)      ; 0 (0)             ; 47 (47)          ; |VGA|DT:DT_U                                ; work         ;
+; |VGA                            ; 385 (236)   ; 160 (114)                 ; 0 (0)         ; 0           ; 0    ; 4            ; 0       ; 2         ; 73   ; 0            ; 225 (122)    ; 20 (20)           ; 140 (93)         ; |VGA                                        ; work         ;
+;    |DT:DT_U|                    ; 150 (150)   ; 46 (46)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 103 (103)    ; 0 (0)             ; 47 (47)          ; |VGA|DT:DT_U                                ; work         ;
 ;    |lpm_mult:Mult0|             ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 2            ; 0       ; 1         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |VGA|lpm_mult:Mult0                         ; work         ;
 ;       |mult_p5t:auto_generated| ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 2            ; 0       ; 1         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |VGA|lpm_mult:Mult0|mult_p5t:auto_generated ; work         ;
 ;    |lpm_mult:Mult1|             ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 2            ; 0       ; 1         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |VGA|lpm_mult:Mult1                         ; work         ;
@@ -1444,14 +1444,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; SRAM_WE_N     ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; SRAM_UE_N     ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; SRAM_LE_N     ; Output   ; --            ; --            ; --                    ; --  ; --   ;
-; SRAM_DQ[0]    ; Bidir    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; SRAM_DQ[0]    ; Bidir    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
 ; SRAM_DQ[1]    ; Bidir    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 ; SRAM_DQ[2]    ; Bidir    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 ; SRAM_DQ[3]    ; Bidir    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 ; SRAM_DQ[4]    ; Bidir    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; SRAM_DQ[5]    ; Bidir    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; SRAM_DQ[5]    ; Bidir    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
 ; SRAM_DQ[6]    ; Bidir    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; SRAM_DQ[7]    ; Bidir    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
+; SRAM_DQ[7]    ; Bidir    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 ; SRAM_DQ[8]    ; Bidir    ; --            ; --            ; --                    ; --  ; --   ;
 ; SRAM_DQ[9]    ; Bidir    ; --            ; --            ; --                    ; --  ; --   ;
 ; SRAM_DQ[10]   ; Bidir    ; --            ; --            ; --                    ; --  ; --   ;
@@ -1460,9 +1460,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; SRAM_DQ[13]   ; Bidir    ; --            ; --            ; --                    ; --  ; --   ;
 ; SRAM_DQ[14]   ; Bidir    ; --            ; --            ; --                    ; --  ; --   ;
 ; SRAM_DQ[15]   ; Bidir    ; --            ; --            ; --                    ; --  ; --   ;
-; rst           ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; rst           ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
 ; clk           ; Input    ; (0) 0 ps      ; --            ; --                    ; --  ; --   ;
-; write_bt      ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; write_bt      ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
 ; DT_bt         ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 +---------------+----------+---------------+---------------+-----------------------+-----+------+
 
@@ -1473,45 +1473,45 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Source Pin / Fanout                   ; Pad To Core Index ; Setting ;
 +---------------------------------------+-------------------+---------+
 ; SRAM_DQ[0]                            ;                   ;         ;
-;      - DT:DT_U|min[0]~8               ; 0                 ; 6       ;
-;      - DT:DT_U|LessThan2~1            ; 0                 ; 6       ;
-;      - VGA_R~0                        ; 0                 ; 6       ;
-;      - DT:DT_U|always0~3              ; 0                 ; 6       ;
+;      - DT:DT_U|min[0]~9               ; 1                 ; 6       ;
+;      - DT:DT_U|LessThan0~1            ; 1                 ; 6       ;
+;      - VGA_R~0                        ; 1                 ; 6       ;
+;      - DT:DT_U|always0~2              ; 1                 ; 6       ;
 ; SRAM_DQ[1]                            ;                   ;         ;
 ;      - DT:DT_U|min[1]~13              ; 0                 ; 6       ;
-;      - DT:DT_U|LessThan2~3            ; 0                 ; 6       ;
+;      - DT:DT_U|LessThan0~3            ; 0                 ; 6       ;
 ;      - VGA_R~1                        ; 0                 ; 6       ;
-;      - DT:DT_U|always0~3              ; 0                 ; 6       ;
+;      - DT:DT_U|always0~2              ; 0                 ; 6       ;
 ; SRAM_DQ[2]                            ;                   ;         ;
 ;      - DT:DT_U|min[2]~15              ; 0                 ; 6       ;
-;      - DT:DT_U|LessThan2~5            ; 0                 ; 6       ;
+;      - DT:DT_U|LessThan0~5            ; 0                 ; 6       ;
 ;      - VGA_R~2                        ; 0                 ; 6       ;
-;      - DT:DT_U|always0~3              ; 0                 ; 6       ;
+;      - DT:DT_U|always0~2              ; 0                 ; 6       ;
 ; SRAM_DQ[3]                            ;                   ;         ;
 ;      - DT:DT_U|min[3]~17              ; 0                 ; 6       ;
-;      - DT:DT_U|LessThan2~7            ; 0                 ; 6       ;
+;      - DT:DT_U|LessThan0~7            ; 0                 ; 6       ;
 ;      - VGA_R~3                        ; 0                 ; 6       ;
-;      - DT:DT_U|always0~2              ; 0                 ; 6       ;
+;      - DT:DT_U|always0~1              ; 0                 ; 6       ;
 ; SRAM_DQ[4]                            ;                   ;         ;
 ;      - DT:DT_U|min[4]~19              ; 0                 ; 6       ;
-;      - DT:DT_U|LessThan2~9            ; 0                 ; 6       ;
+;      - DT:DT_U|LessThan0~9            ; 0                 ; 6       ;
 ;      - VGA_R~4                        ; 0                 ; 6       ;
-;      - DT:DT_U|always0~2              ; 0                 ; 6       ;
+;      - DT:DT_U|always0~1              ; 0                 ; 6       ;
 ; SRAM_DQ[5]                            ;                   ;         ;
-;      - DT:DT_U|min[5]~21              ; 0                 ; 6       ;
-;      - DT:DT_U|LessThan2~11           ; 0                 ; 6       ;
-;      - VGA_R~5                        ; 0                 ; 6       ;
-;      - DT:DT_U|always0~2              ; 0                 ; 6       ;
+;      - DT:DT_U|min[5]~21              ; 1                 ; 6       ;
+;      - DT:DT_U|LessThan0~11           ; 1                 ; 6       ;
+;      - VGA_R~5                        ; 1                 ; 6       ;
+;      - DT:DT_U|always0~1              ; 1                 ; 6       ;
 ; SRAM_DQ[6]                            ;                   ;         ;
 ;      - DT:DT_U|min[6]~23              ; 0                 ; 6       ;
-;      - DT:DT_U|LessThan2~13           ; 0                 ; 6       ;
+;      - DT:DT_U|LessThan0~13           ; 0                 ; 6       ;
 ;      - VGA_R~6                        ; 0                 ; 6       ;
-;      - DT:DT_U|always0~2              ; 0                 ; 6       ;
+;      - DT:DT_U|always0~1              ; 0                 ; 6       ;
 ; SRAM_DQ[7]                            ;                   ;         ;
-;      - DT:DT_U|min[7]~25              ; 1                 ; 6       ;
-;      - DT:DT_U|LessThan2~14           ; 1                 ; 6       ;
-;      - VGA_R~7                        ; 1                 ; 6       ;
-;      - DT:DT_U|always0~1              ; 1                 ; 6       ;
+;      - DT:DT_U|min[7]~25              ; 0                 ; 6       ;
+;      - DT:DT_U|LessThan0~14           ; 0                 ; 6       ;
+;      - VGA_R~7                        ; 0                 ; 6       ;
+;      - DT:DT_U|Selector32~0           ; 0                 ; 6       ;
 ; SRAM_DQ[8]                            ;                   ;         ;
 ; SRAM_DQ[9]                            ;                   ;         ;
 ; SRAM_DQ[10]                           ;                   ;         ;
@@ -1521,106 +1521,107 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; SRAM_DQ[14]                           ;                   ;         ;
 ; SRAM_DQ[15]                           ;                   ;         ;
 ; rst                                   ;                   ;         ;
-;      - writeing                       ; 0                 ; 6       ;
-;      - DT:DT_U|ADDR_Y[1]              ; 0                 ; 6       ;
-;      - DT:DT_U|ADDR_Y[2]              ; 0                 ; 6       ;
-;      - DT:DT_U|ADDR_Y[3]              ; 0                 ; 6       ;
-;      - DT:DT_U|ADDR_Y[4]              ; 0                 ; 6       ;
-;      - DT:DT_U|ADDR_Y[5]              ; 0                 ; 6       ;
-;      - DT:DT_U|ADDR_Y[6]              ; 0                 ; 6       ;
-;      - DT:DT_U|ADDR_Y[7]              ; 0                 ; 6       ;
-;      - DT:DT_U|ADDR_Y[8]              ; 0                 ; 6       ;
-;      - DT:DT_U|ADDR_Y[9]              ; 0                 ; 6       ;
-;      - DT:DT_U|ADDR_X[7]              ; 0                 ; 6       ;
-;      - DT:DT_U|ADDR_X[8]              ; 0                 ; 6       ;
-;      - VGA_VS~reg0                    ; 0                 ; 6       ;
-;      - VGA_HS~reg0                    ; 0                 ; 6       ;
-;      - counterVS[0]                   ; 0                 ; 6       ;
-;      - counterVS[1]                   ; 0                 ; 6       ;
-;      - counterVS[2]                   ; 0                 ; 6       ;
-;      - counterVS[3]                   ; 0                 ; 6       ;
-;      - counterVS[4]                   ; 0                 ; 6       ;
-;      - counterVS[5]                   ; 0                 ; 6       ;
-;      - counterVS[6]                   ; 0                 ; 6       ;
-;      - counterVS[7]                   ; 0                 ; 6       ;
-;      - counterVS[8]                   ; 0                 ; 6       ;
-;      - counterVS[9]                   ; 0                 ; 6       ;
-;      - X[5]                           ; 0                 ; 6       ;
-;      - X[6]                           ; 0                 ; 6       ;
-;      - X[7]                           ; 0                 ; 6       ;
-;      - X[8]                           ; 0                 ; 6       ;
-;      - X[9]                           ; 0                 ; 6       ;
-;      - Y[0]                           ; 0                 ; 6       ;
-;      - Y[1]                           ; 0                 ; 6       ;
-;      - Y[2]                           ; 0                 ; 6       ;
-;      - Y[3]                           ; 0                 ; 6       ;
-;      - Y[4]                           ; 0                 ; 6       ;
-;      - Y[5]                           ; 0                 ; 6       ;
-;      - Y[6]                           ; 0                 ; 6       ;
-;      - Y[7]                           ; 0                 ; 6       ;
-;      - Y[8]                           ; 0                 ; 6       ;
-;      - Y[9]                           ; 0                 ; 6       ;
-;      - DT:DT_U|DQ_write[0]            ; 0                 ; 6       ;
-;      - DT:DT_U|DQ_write[1]            ; 0                 ; 6       ;
-;      - DT:DT_U|DQ_write[2]            ; 0                 ; 6       ;
-;      - DT:DT_U|DQ_write[3]            ; 0                 ; 6       ;
-;      - DT:DT_U|DQ_write[4]            ; 0                 ; 6       ;
-;      - DT:DT_U|DQ_write[5]            ; 0                 ; 6       ;
-;      - DT:DT_U|DQ_write[6]            ; 0                 ; 6       ;
-;      - DT:DT_U|DQ_write[7]            ; 0                 ; 6       ;
-;      - DT:DT_U|min[0]                 ; 0                 ; 6       ;
-;      - DT:DT_U|min[1]                 ; 0                 ; 6       ;
-;      - DT:DT_U|min[2]                 ; 0                 ; 6       ;
-;      - DT:DT_U|min[3]                 ; 0                 ; 6       ;
-;      - DT:DT_U|min[4]                 ; 0                 ; 6       ;
-;      - DT:DT_U|min[5]                 ; 0                 ; 6       ;
-;      - DT:DT_U|min[6]                 ; 0                 ; 6       ;
-;      - DT:DT_U|min[7]                 ; 0                 ; 6       ;
-;      - computing                      ; 0                 ; 6       ;
-;      - DT:DT_U|ADDR_X[1]              ; 0                 ; 6       ;
-;      - DT:DT_U|ADDR_X[2]              ; 0                 ; 6       ;
-;      - DT:DT_U|ADDR_X[3]              ; 0                 ; 6       ;
-;      - DT:DT_U|ADDR_X[4]              ; 0                 ; 6       ;
-;      - DT:DT_U|ADDR_X[5]              ; 0                 ; 6       ;
-;      - DT:DT_U|ADDR_X[6]              ; 0                 ; 6       ;
-;      - DT:DT_U|ADDR_X[9]              ; 0                 ; 6       ;
-;      - DT:DT_U|ADDR_X[0]              ; 0                 ; 6       ;
-;      - DT:DT_U|ADDR_Y[0]              ; 0                 ; 6       ;
-;      - DT:DT_U|SRAM_CE                ; 0                 ; 6       ;
-;      - writeing_CE                    ; 0                 ; 6       ;
-;      - DT:DT_U|SRAM_RW                ; 0                 ; 6       ;
-;      - VGA_R~0                        ; 0                 ; 6       ;
-;      - VGA_R~1                        ; 0                 ; 6       ;
-;      - VGA_R~2                        ; 0                 ; 6       ;
-;      - VGA_R~3                        ; 0                 ; 6       ;
-;      - VGA_R~4                        ; 0                 ; 6       ;
-;      - VGA_R~5                        ; 0                 ; 6       ;
-;      - VGA_R~6                        ; 0                 ; 6       ;
-;      - VGA_R~7                        ; 0                 ; 6       ;
-;      - counterHS[5]~23                ; 0                 ; 6       ;
-;      - X[0]                           ; 0                 ; 6       ;
-;      - DT:DT_U|finish                 ; 0                 ; 6       ;
-;      - DT:DT_U|State_1                ; 0                 ; 6       ;
-;      - DT:DT_U|Comp_Count[0]          ; 0                 ; 6       ;
-;      - DT:DT_U|Comp_Count[2]          ; 0                 ; 6       ;
-;      - DT:DT_U|Comp_Count[1]          ; 0                 ; 6       ;
-;      - DT:DT_U|RW_State.Rw_State_Addr ; 0                 ; 6       ;
-;      - DT:DT_U|RW_State.RW_State_Read ; 0                 ; 6       ;
-;      - writeXcnt[0]~13                ; 0                 ; 6       ;
-;      - X[1]                           ; 0                 ; 6       ;
-;      - X[2]                           ; 0                 ; 6       ;
-;      - X[3]                           ; 0                 ; 6       ;
-;      - X[4]                           ; 0                 ; 6       ;
-;      - DT:DT_U|RW_State.RW_State_Wire ; 0                 ; 6       ;
-;      - writeing_DQ[0]~2               ; 0                 ; 6       ;
-;      - writeing_DQ[0]~5               ; 0                 ; 6       ;
+;      - writeing                       ; 1                 ; 6       ;
+;      - DT:DT_U|ADDR_Y[1]              ; 1                 ; 6       ;
+;      - DT:DT_U|ADDR_Y[2]              ; 1                 ; 6       ;
+;      - DT:DT_U|ADDR_Y[3]              ; 1                 ; 6       ;
+;      - DT:DT_U|ADDR_Y[4]              ; 1                 ; 6       ;
+;      - DT:DT_U|ADDR_Y[5]              ; 1                 ; 6       ;
+;      - DT:DT_U|ADDR_Y[6]              ; 1                 ; 6       ;
+;      - DT:DT_U|ADDR_Y[7]              ; 1                 ; 6       ;
+;      - DT:DT_U|ADDR_Y[8]              ; 1                 ; 6       ;
+;      - DT:DT_U|ADDR_Y[9]              ; 1                 ; 6       ;
+;      - DT:DT_U|ADDR_X[7]              ; 1                 ; 6       ;
+;      - DT:DT_U|ADDR_X[8]              ; 1                 ; 6       ;
+;      - VGA_VS~reg0                    ; 1                 ; 6       ;
+;      - VGA_HS~reg0                    ; 1                 ; 6       ;
+;      - counterVS[0]                   ; 1                 ; 6       ;
+;      - counterVS[1]                   ; 1                 ; 6       ;
+;      - counterVS[2]                   ; 1                 ; 6       ;
+;      - counterVS[3]                   ; 1                 ; 6       ;
+;      - counterVS[4]                   ; 1                 ; 6       ;
+;      - counterVS[5]                   ; 1                 ; 6       ;
+;      - counterVS[6]                   ; 1                 ; 6       ;
+;      - counterVS[7]                   ; 1                 ; 6       ;
+;      - counterVS[8]                   ; 1                 ; 6       ;
+;      - counterVS[9]                   ; 1                 ; 6       ;
+;      - X[5]                           ; 1                 ; 6       ;
+;      - X[6]                           ; 1                 ; 6       ;
+;      - X[7]                           ; 1                 ; 6       ;
+;      - X[8]                           ; 1                 ; 6       ;
+;      - X[9]                           ; 1                 ; 6       ;
+;      - Y[0]                           ; 1                 ; 6       ;
+;      - Y[1]                           ; 1                 ; 6       ;
+;      - Y[2]                           ; 1                 ; 6       ;
+;      - Y[3]                           ; 1                 ; 6       ;
+;      - Y[4]                           ; 1                 ; 6       ;
+;      - Y[5]                           ; 1                 ; 6       ;
+;      - Y[6]                           ; 1                 ; 6       ;
+;      - Y[7]                           ; 1                 ; 6       ;
+;      - Y[8]                           ; 1                 ; 6       ;
+;      - Y[9]                           ; 1                 ; 6       ;
+;      - DT:DT_U|DQ_write[0]            ; 1                 ; 6       ;
+;      - DT:DT_U|DQ_write[1]            ; 1                 ; 6       ;
+;      - DT:DT_U|DQ_write[2]            ; 1                 ; 6       ;
+;      - DT:DT_U|DQ_write[3]            ; 1                 ; 6       ;
+;      - DT:DT_U|DQ_write[4]            ; 1                 ; 6       ;
+;      - DT:DT_U|DQ_write[5]            ; 1                 ; 6       ;
+;      - DT:DT_U|DQ_write[6]            ; 1                 ; 6       ;
+;      - DT:DT_U|DQ_write[7]            ; 1                 ; 6       ;
+;      - DT:DT_U|min[0]                 ; 1                 ; 6       ;
+;      - DT:DT_U|min[1]                 ; 1                 ; 6       ;
+;      - DT:DT_U|min[2]                 ; 1                 ; 6       ;
+;      - DT:DT_U|min[3]                 ; 1                 ; 6       ;
+;      - DT:DT_U|min[4]                 ; 1                 ; 6       ;
+;      - DT:DT_U|min[5]                 ; 1                 ; 6       ;
+;      - DT:DT_U|min[6]                 ; 1                 ; 6       ;
+;      - DT:DT_U|min[7]                 ; 1                 ; 6       ;
+;      - computing                      ; 1                 ; 6       ;
+;      - DT:DT_U|ADDR_X[1]              ; 1                 ; 6       ;
+;      - DT:DT_U|ADDR_X[2]              ; 1                 ; 6       ;
+;      - DT:DT_U|ADDR_X[3]              ; 1                 ; 6       ;
+;      - DT:DT_U|ADDR_X[4]              ; 1                 ; 6       ;
+;      - DT:DT_U|ADDR_X[5]              ; 1                 ; 6       ;
+;      - DT:DT_U|ADDR_X[6]              ; 1                 ; 6       ;
+;      - DT:DT_U|ADDR_X[9]              ; 1                 ; 6       ;
+;      - DT:DT_U|ADDR_X[0]              ; 1                 ; 6       ;
+;      - DT:DT_U|ADDR_Y[0]              ; 1                 ; 6       ;
+;      - DT:DT_U|SRAM_CE                ; 1                 ; 6       ;
+;      - writeing_CE                    ; 1                 ; 6       ;
+;      - DT:DT_U|SRAM_RW                ; 1                 ; 6       ;
+;      - VGA_R~0                        ; 1                 ; 6       ;
+;      - VGA_R~1                        ; 1                 ; 6       ;
+;      - VGA_R~2                        ; 1                 ; 6       ;
+;      - VGA_R~3                        ; 1                 ; 6       ;
+;      - VGA_R~4                        ; 1                 ; 6       ;
+;      - VGA_R~5                        ; 1                 ; 6       ;
+;      - VGA_R~6                        ; 1                 ; 6       ;
+;      - VGA_R~7                        ; 1                 ; 6       ;
+;      - counterHS[6]~23                ; 1                 ; 6       ;
+;      - X[0]                           ; 1                 ; 6       ;
+;      - DT:DT_U|finish                 ; 1                 ; 6       ;
+;      - DT:DT_U|Comp_Count[2]          ; 1                 ; 6       ;
+;      - DT:DT_U|Comp_Count[1]          ; 1                 ; 6       ;
+;      - DT:DT_U|Comp_Count[0]          ; 1                 ; 6       ;
+;      - DT:DT_U|RW_State.Rw_State_Addr ; 1                 ; 6       ;
+;      - DT:DT_U|RW_State.RW_State_Read ; 1                 ; 6       ;
+;      - DT:DT_U|State_1                ; 1                 ; 6       ;
+;      - writeXcnt[0]~13                ; 1                 ; 6       ;
+;      - X[1]                           ; 1                 ; 6       ;
+;      - X[2]                           ; 1                 ; 6       ;
+;      - X[3]                           ; 1                 ; 6       ;
+;      - X[4]                           ; 1                 ; 6       ;
+;      - DT:DT_U|RW_State.RW_State_Wire ; 1                 ; 6       ;
+;      - writeing_DQ[0]~4               ; 1                 ; 6       ;
+;      - writeing_DQ[0]~7               ; 1                 ; 6       ;
+;      - writeing_DQ[0]~12              ; 1                 ; 6       ;
 ; clk                                   ;                   ;         ;
 ; write_bt                              ;                   ;         ;
-;      - w_key                          ; 0                 ; 6       ;
-;      - computing~1                    ; 0                 ; 6       ;
-;      - writeing~0                     ; 0                 ; 6       ;
-;      - writeXcnt[0]~13                ; 0                 ; 6       ;
-;      - writeing_CE~1                  ; 0                 ; 6       ;
+;      - computing~1                    ; 1                 ; 6       ;
+;      - writeing~0                     ; 1                 ; 6       ;
+;      - writeXcnt[0]~13                ; 1                 ; 6       ;
+;      - writeing_CE~1                  ; 1                 ; 6       ;
+;      - w_key~feeder                   ; 1                 ; 6       ;
 ; DT_bt                                 ;                   ;         ;
 ;      - c_key                          ; 0                 ; 6       ;
 ;      - computing~1                    ; 0                 ; 6       ;
@@ -1632,25 +1633,25 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------------------+--------------------+---------+-----------------------------------------+--------+----------------------+------------------+---------------------------+
 ; Name                           ; Location           ; Fan-Out ; Usage                                   ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +--------------------------------+--------------------+---------+-----------------------------------------+--------+----------------------+------------------+---------------------------+
-; DT:DT_U|ADDR_X[8]~15           ; LCCOMB_X40_Y25_N2  ; 9       ; Sync. load                              ; no     ; --                   ; --               ; --                        ;
-; DT:DT_U|ADDR_X[8]~17           ; LCCOMB_X39_Y25_N2  ; 9       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; DT:DT_U|ADDR_Y[4]~25           ; LCCOMB_X40_Y25_N20 ; 9       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; DT:DT_U|DQ_write[0]~10         ; LCCOMB_X38_Y25_N20 ; 8       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; DT:DT_U|RW_State.RW_State_Read ; FF_X38_Y25_N17     ; 18      ; Sync. load                              ; no     ; --                   ; --               ; --                        ;
-; DT:DT_U|always0~0              ; LCCOMB_X39_Y25_N4  ; 21      ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; DT:DT_U|min[7]~12              ; LCCOMB_X38_Y25_N12 ; 8       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; Equal2~3                       ; LCCOMB_X41_Y23_N30 ; 10      ; Sync. load                              ; no     ; --                   ; --               ; --                        ;
-; LessThan0~1                    ; LCCOMB_X38_Y23_N2  ; 5       ; Sync. clear                             ; no     ; --                   ; --               ; --                        ;
-; LessThan1~2                    ; LCCOMB_X41_Y24_N30 ; 11      ; Sync. clear                             ; no     ; --                   ; --               ; --                        ;
-; SRAM_WE_N~0                    ; LCCOMB_X38_Y24_N12 ; 18      ; Output enable                           ; no     ; --                   ; --               ; --                        ;
+; DT:DT_U|ADDR_X[9]~22           ; LCCOMB_X38_Y26_N26 ; 9       ; Sync. load                              ; no     ; --                   ; --               ; --                        ;
+; DT:DT_U|ADDR_X[9]~23           ; LCCOMB_X43_Y26_N30 ; 9       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; DT:DT_U|ADDR_Y[8]~17           ; LCCOMB_X42_Y25_N4  ; 9       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; DT:DT_U|DQ_write[0]~10         ; LCCOMB_X40_Y24_N28 ; 8       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; DT:DT_U|RW_State.RW_State_Read ; FF_X40_Y24_N23     ; 20      ; Sync. load                              ; no     ; --                   ; --               ; --                        ;
+; DT:DT_U|always0~0              ; LCCOMB_X43_Y26_N16 ; 22      ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; DT:DT_U|min[7]~12              ; LCCOMB_X38_Y24_N30 ; 8       ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; Equal2~3                       ; LCCOMB_X42_Y26_N2  ; 10      ; Sync. load                              ; no     ; --                   ; --               ; --                        ;
+; LessThan0~1                    ; LCCOMB_X38_Y26_N2  ; 5       ; Sync. clear                             ; no     ; --                   ; --               ; --                        ;
+; LessThan1~2                    ; LCCOMB_X42_Y24_N26 ; 11      ; Sync. clear                             ; no     ; --                   ; --               ; --                        ;
+; SRAM_WE_N~0                    ; LCCOMB_X38_Y24_N22 ; 18      ; Output enable                           ; no     ; --                   ; --               ; --                        ;
 ; clk                            ; PIN_Y2             ; 73      ; Clock                                   ; yes    ; Global Clock         ; GCLK4            ; --                        ;
-; clk25M                         ; FF_X55_Y72_N29     ; 87      ; Clock                                   ; yes    ; Global Clock         ; GCLK14           ; --                        ;
-; counterHS[5]~23                ; LCCOMB_X40_Y23_N26 ; 11      ; Sync. clear                             ; no     ; --                   ; --               ; --                        ;
-; rst                            ; PIN_M23            ; 93      ; Async. clear, Clock enable, Sync. clear ; no     ; --                   ; --               ; --                        ;
-; writeXcnt[0]~14                ; LCCOMB_X42_Y24_N30 ; 11      ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; writeXcnt[2]~12                ; LCCOMB_X42_Y23_N6  ; 11      ; Sync. clear                             ; no     ; --                   ; --               ; --                        ;
-; writeYcnt[0]~12                ; LCCOMB_X42_Y23_N22 ; 10      ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
-; writeing                       ; FF_X39_Y26_N7      ; 70      ; Sync. clear, Sync. load                 ; no     ; --                   ; --               ; --                        ;
+; clk25M                         ; FF_X56_Y72_N31     ; 87      ; Clock                                   ; yes    ; Global Clock         ; GCLK11           ; --                        ;
+; counterHS[6]~23                ; LCCOMB_X41_Y26_N26 ; 11      ; Sync. clear                             ; no     ; --                   ; --               ; --                        ;
+; rst                            ; PIN_M23            ; 94      ; Async. clear, Clock enable, Sync. clear ; no     ; --                   ; --               ; --                        ;
+; writeXcnt[0]~14                ; LCCOMB_X46_Y26_N10 ; 11      ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; writeXcnt[3]~12                ; LCCOMB_X42_Y27_N16 ; 11      ; Sync. clear                             ; no     ; --                   ; --               ; --                        ;
+; writeYcnt[0]~12                ; LCCOMB_X42_Y27_N22 ; 10      ; Clock enable                            ; no     ; --                   ; --               ; --                        ;
+; writeing                       ; FF_X39_Y24_N21     ; 71      ; Sync. clear, Sync. load                 ; no     ; --                   ; --               ; --                        ;
 +--------------------------------+--------------------+---------+-----------------------------------------+--------+----------------------+------------------+---------------------------+
 
 
@@ -1659,8 +1660,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------+----------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 ; Name   ; Location       ; Fan-Out ; Fan-Out Using Intentional Clock Skew ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +--------+----------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
-; clk    ; PIN_Y2         ; 73      ; 3                                    ; Global Clock         ; GCLK4            ; --                        ;
-; clk25M ; FF_X55_Y72_N29 ; 87      ; 29                                   ; Global Clock         ; GCLK14           ; --                        ;
+; clk    ; PIN_Y2         ; 73      ; 5                                    ; Global Clock         ; GCLK4            ; --                        ;
+; clk25M ; FF_X56_Y72_N31 ; 87      ; 28                                   ; Global Clock         ; GCLK11           ; --                        ;
 +--------+----------------+---------+--------------------------------------+----------------------+------------------+---------------------------+
 
 
@@ -1669,47 +1670,47 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------------------------+---------+
 ; Name                                                       ; Fan-Out ;
 +------------------------------------------------------------+---------+
-; rst~input                                                  ; 93      ;
-; writeing                                                   ; 70      ;
+; rst~input                                                  ; 94      ;
+; writeing                                                   ; 71      ;
 ; computing                                                  ; 51      ;
-; DT:DT_U|always0~0                                          ; 21      ;
+; DT:DT_U|always0~0                                          ; 22      ;
+; DT:DT_U|RW_State.RW_State_Read                             ; 20      ;
 ; ~GND                                                       ; 18      ;
-; DT:DT_U|RW_State.RW_State_Read                             ; 18      ;
+; DT:DT_U|RW_State.Rw_State_Addr                             ; 18      ;
 ; SRAM_WE_N~0                                                ; 18      ;
-; DT:DT_U|RW_State.Rw_State_Addr                             ; 13      ;
-; DT:DT_U|Comp_Count[1]                                      ; 12      ;
-; DT:DT_U|Comp_Count[0]                                      ; 12      ;
+; DT:DT_U|State_1                                            ; 14      ;
+; DT:DT_U|Comp_Count[0]                                      ; 14      ;
+; DT:DT_U|Comp_Count[1]                                      ; 14      ;
+; DT:DT_U|Comp_Count[2]                                      ; 12      ;
 ; writeXcnt[0]~14                                            ; 11      ;
-; writeXcnt[2]~12                                            ; 11      ;
-; DT:DT_U|Comp_Count[2]                                      ; 11      ;
-; DT:DT_U|State_1                                            ; 11      ;
-; counterHS[5]~23                                            ; 11      ;
+; writeXcnt[3]~12                                            ; 11      ;
+; counterHS[6]~23                                            ; 11      ;
 ; LessThan1~2                                                ; 11      ;
+; writeYcnt[5]                                               ; 11      ;
+; writeYcnt[4]                                               ; 11      ;
 ; counterHS[9]                                               ; 11      ;
 ; counterHS[8]                                               ; 11      ;
 ; writeYcnt[0]~12                                            ; 10      ;
+; DT:DT_U|finish                                             ; 10      ;
 ; Equal2~3                                                   ; 10      ;
-; writeYcnt[5]                                               ; 10      ;
-; writeYcnt[4]                                               ; 10      ;
 ; writeing_DQ[0]                                             ; 9       ;
-; DT:DT_U|ADDR_Y[4]~25                                       ; 9       ;
-; DT:DT_U|ADDR_Y[4]~23                                       ; 9       ;
-; DT:DT_U|ADDR_X[8]~17                                       ; 9       ;
-; DT:DT_U|ADDR_X[8]~15                                       ; 9       ;
-; DT:DT_U|ADDR_X[8]~12                                       ; 9       ;
-; DT:DT_U|finish                                             ; 9       ;
+; DT:DT_U|ADDR_Y[8]~17                                       ; 9       ;
+; DT:DT_U|ADDR_Y[8]~13                                       ; 9       ;
+; DT:DT_U|ADDR_X[9]~23                                       ; 9       ;
+; DT:DT_U|ADDR_X[9]~22                                       ; 9       ;
+; DT:DT_U|ADDR_X[9]~19                                       ; 9       ;
+; writeYcnt[6]                                               ; 9       ;
 ; writeXcnt[4]                                               ; 9       ;
 ; DT:DT_U|min[7]~12                                          ; 8       ;
 ; DT:DT_U|DQ_write[0]~10                                     ; 8       ;
+; writeing_CE                                                ; 8       ;
+; DT:DT_U|ADDR_Y[0]                                          ; 8       ;
 ; writeYcnt[8]                                               ; 8       ;
-; writeYcnt[6]                                               ; 8       ;
+; writeYcnt[7]                                               ; 8       ;
 ; writeXcnt[8]                                               ; 8       ;
-; DT:DT_U|ADDR_X~13                                          ; 7       ;
-; writeing_CE                                                ; 7       ;
-; DT:DT_U|ADDR_Y[0]                                          ; 7       ;
+; DT:DT_U|ADDR_X~20                                          ; 7       ;
 ; LessThan0~0                                                ; 7       ;
 ; writeYcnt[9]                                               ; 7       ;
-; writeYcnt[7]                                               ; 7       ;
 ; writeXcnt[9]                                               ; 7       ;
 ; writeXcnt[5]                                               ; 7       ;
 ; DT:DT_U|ADDR_X[8]                                          ; 6       ;
@@ -1759,11 +1760,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; SRAM_DQ[2]~input                                           ; 4       ;
 ; SRAM_DQ[1]~input                                           ; 4       ;
 ; SRAM_DQ[0]~input                                           ; 4       ;
-; writeing_DQ[0]~0                                           ; 4       ;
-; DT:DT_U|always0~3                                          ; 4       ;
-; DT:DT_U|always0~1                                          ; 4       ;
+; writeing_DQ[0]~2                                           ; 4       ;
 ; DT:DT_U|RW_State.RW_State_Wire                             ; 4       ;
-; DT:DT_U|ADDR_X[8]~14                                       ; 4       ;
+; DT:DT_U|Equal2~2                                           ; 4       ;
+; DT:DT_U|Equal1~1                                           ; 4       ;
 ; w_key                                                      ; 4       ;
 ; counterHS[2]                                               ; 4       ;
 ; counterHS[1]                                               ; 4       ;
@@ -1774,10 +1774,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; counterVS[8]                                               ; 4       ;
 ; counterVS[7]                                               ; 4       ;
 ; counterVS[6]                                               ; 4       ;
-; Add5~3                                                     ; 3       ;
-; DT:DT_U|Selector28~2                                       ; 3       ;
-; DT:DT_U|LessThan3~0                                        ; 3       ;
-; DT:DT_U|ADDR_Y[4]~17                                       ; 3       ;
+; DT:DT_U|Decoder0~1                                         ; 3       ;
 ; VGA_R~7                                                    ; 3       ;
 ; VGA_R~6                                                    ; 3       ;
 ; VGA_R~5                                                    ; 3       ;
@@ -1789,6 +1786,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; counterHS[4]                                               ; 3       ;
 ; counterHS[10]                                              ; 3       ;
 ; DT_bt~input                                                ; 2       ;
+; Add5~7                                                     ; 2       ;
 ; Add5~6                                                     ; 2       ;
 ; Add5~5                                                     ; 2       ;
 ; Add5~4                                                     ; 2       ;
@@ -1801,15 +1799,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Add4~2                                                     ; 2       ;
 ; Add4~1                                                     ; 2       ;
 ; Add4~0                                                     ; 2       ;
-; writeing_DQ[0]~2                                           ; 2       ;
-; DT:DT_U|Add5~0                                             ; 2       ;
-; DT:DT_U|finish~2                                           ; 2       ;
-; DT:DT_U|Equal0~1                                           ; 2       ;
+; DT:DT_U|Selector32~0                                       ; 2       ;
+; DT:DT_U|Selector2~0                                        ; 2       ;
+; DT:DT_U|ADDR_Y[8]~3                                        ; 2       ;
+; DT:DT_U|ADDR_X[9]~18                                       ; 2       ;
+; DT:DT_U|Decoder0~0                                         ; 2       ;
 ; DT:DT_U|State_1~0                                          ; 2       ;
 ; LessThan9~1                                                ; 2       ;
 ; LessThan9~0                                                ; 2       ;
-; DT:DT_U|ADDR_X~9                                           ; 2       ;
-; DT:DT_U|Selector9~0                                        ; 2       ;
+; DT:DT_U|ADDR_X~14                                          ; 2       ;
+; DT:DT_U|ADDR_X~11                                          ; 2       ;
 ; Equal3~2                                                   ; 2       ;
 ; Equal2~0                                                   ; 2       ;
 ; Equal0~0                                                   ; 2       ;
@@ -1829,30 +1828,32 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; DT:DT_U|min[0]                                             ; 2       ;
 ; DT:DT_U|Add1~0                                             ; 2       ;
 ; DT:DT_U|Add0~0                                             ; 2       ;
-; DT:DT_U|SRAM_CE~0                                          ; 1       ;
+; DT:DT_U|Add3~0                                             ; 2       ;
+; DT:DT_U|Add2~0                                             ; 2       ;
+; DT:DT_U|RW_State.RW_State_Read~0                           ; 1       ;
+; DT:DT_U|SRAM_CE~2                                          ; 1       ;
 ; clk25M~0                                                   ; 1       ;
-; DT:DT_U|ADDR_Y~37                                          ; 1       ;
-; DT:DT_U|ADDR_Y~36                                          ; 1       ;
-; DT:DT_U|ADDR_Y[4]~8                                        ; 1       ;
-; DT:DT_U|ADDR_Y[4]~35                                       ; 1       ;
-; DT:DT_U|Selector28~3                                       ; 1       ;
-; DT:DT_U|ADDR_Y~34                                          ; 1       ;
-; DT:DT_U|ADDR_X~20                                          ; 1       ;
+; writeing_DQ[0]~12                                          ; 1       ;
+; DT:DT_U|finish~6                                           ; 1       ;
+; DT:DT_U|ADDR_Y~27                                          ; 1       ;
+; DT:DT_U|ADDR_X~27                                          ; 1       ;
+; DT:DT_U|ADDR_X~26                                          ; 1       ;
+; Add5~3                                                     ; 1       ;
 ; DT:DT_U|min[7]~11                                          ; 1       ;
-; DT:DT_U|min[7]~10                                          ; 1       ;
-; writeing_DQ[0]~10                                          ; 1       ;
+; DT:DT_U|min[1]~8                                           ; 1       ;
+; writeing_DQ[0]~11                                          ; 1       ;
 ; LessThan4~4                                                ; 1       ;
 ; LessThan4~3                                                ; 1       ;
 ; LessThan4~2                                                ; 1       ;
 ; LessThan4~1                                                ; 1       ;
 ; LessThan4~0                                                ; 1       ;
+; writeing_DQ[0]~10                                          ; 1       ;
 ; writeing_DQ[0]~9                                           ; 1       ;
 ; writeing_DQ[0]~8                                           ; 1       ;
 ; writeing_DQ[0]~7                                           ; 1       ;
 ; writeing_DQ[0]~6                                           ; 1       ;
 ; writeing_DQ[0]~5                                           ; 1       ;
 ; writeing_DQ[0]~4                                           ; 1       ;
-; writeing_DQ[0]~3                                           ; 1       ;
 ; LessThan6~1                                                ; 1       ;
 ; LessThan6~0                                                ; 1       ;
 ; LessThan8~1                                                ; 1       ;
@@ -1860,7 +1861,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; LessThan7~2                                                ; 1       ;
 ; LessThan7~1                                                ; 1       ;
 ; LessThan7~0                                                ; 1       ;
-; writeing_DQ[0]~1                                           ; 1       ;
+; writeing_DQ[0]~3                                           ; 1       ;
 ; LessThan5~0                                                ; 1       ;
 ; SRAM_DQ~39                                                 ; 1       ;
 ; SRAM_DQ~38                                                 ; 1       ;
@@ -1870,60 +1871,72 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; SRAM_DQ~34                                                 ; 1       ;
 ; SRAM_DQ~33                                                 ; 1       ;
 ; SRAM_DQ~32                                                 ; 1       ;
-; DT:DT_U|RW_State~13                                        ; 1       ;
+; DT:DT_U|RW_State~10                                        ; 1       ;
 ; X~9                                                        ; 1       ;
 ; X~8                                                        ; 1       ;
 ; X~7                                                        ; 1       ;
 ; X~6                                                        ; 1       ;
-; DT:DT_U|RW_State~12                                        ; 1       ;
-; DT:DT_U|RW_State~11                                        ; 1       ;
-; DT:DT_U|Selector29~0                                       ; 1       ;
-; DT:DT_U|Selector30~0                                       ; 1       ;
-; DT:DT_U|always0~2                                          ; 1       ;
 ; DT:DT_U|State_1~6                                          ; 1       ;
 ; DT:DT_U|State_1~5                                          ; 1       ;
 ; DT:DT_U|State_1~4                                          ; 1       ;
 ; DT:DT_U|State_1~3                                          ; 1       ;
 ; DT:DT_U|State_1~2                                          ; 1       ;
 ; DT:DT_U|State_1~1                                          ; 1       ;
-; DT:DT_U|finish~6                                           ; 1       ;
+; DT:DT_U|Selector2~1                                        ; 1       ;
+; DT:DT_U|Selector33~0                                       ; 1       ;
+; DT:DT_U|Selector32~1                                       ; 1       ;
+; DT:DT_U|always0~2                                          ; 1       ;
+; DT:DT_U|always0~1                                          ; 1       ;
+; DT:DT_U|Selector31~0                                       ; 1       ;
+; DT:DT_U|ADDR_Y[8]~26                                       ; 1       ;
 ; DT:DT_U|finish~5                                           ; 1       ;
 ; DT:DT_U|finish~4                                           ; 1       ;
 ; DT:DT_U|finish~3                                           ; 1       ;
+; DT:DT_U|finish~2                                           ; 1       ;
 ; X~5                                                        ; 1       ;
+; DT:DT_U|Selector1~0                                        ; 1       ;
 ; writeing_CE~2                                              ; 1       ;
 ; writeing_CE~1                                              ; 1       ;
-; DT:DT_U|ADDR_Y~33                                          ; 1       ;
-; DT:DT_U|ADDR_Y~32                                          ; 1       ;
-; DT:DT_U|ADDR_Y~31                                          ; 1       ;
-; DT:DT_U|ADDR_Y~30                                          ; 1       ;
-; DT:DT_U|ADDR_Y~29                                          ; 1       ;
-; DT:DT_U|ADDR_Y~28                                          ; 1       ;
-; DT:DT_U|ADDR_Y~27                                          ; 1       ;
-; DT:DT_U|ADDR_Y~26                                          ; 1       ;
+; DT:DT_U|ADDR_Y~25                                          ; 1       ;
 ; DT:DT_U|ADDR_Y~24                                          ; 1       ;
+; DT:DT_U|ADDR_Y~23                                          ; 1       ;
 ; DT:DT_U|ADDR_Y~22                                          ; 1       ;
 ; DT:DT_U|ADDR_Y~21                                          ; 1       ;
 ; DT:DT_U|ADDR_Y~20                                          ; 1       ;
 ; DT:DT_U|ADDR_Y~19                                          ; 1       ;
 ; DT:DT_U|ADDR_Y~18                                          ; 1       ;
-; DT:DT_U|Selector19~0                                       ; 1       ;
-; DT:DT_U|ADDR_X~19                                          ; 1       ;
-; DT:DT_U|ADDR_X~18                                          ; 1       ;
+; DT:DT_U|ADDR_Y[8]~16                                       ; 1       ;
+; DT:DT_U|ADDR_Y[8]~15                                       ; 1       ;
+; DT:DT_U|ADDR_Y~14                                          ; 1       ;
+; DT:DT_U|ADDR_Y~12                                          ; 1       ;
+; DT:DT_U|ADDR_Y~11                                          ; 1       ;
+; DT:DT_U|ADDR_Y~10                                          ; 1       ;
+; DT:DT_U|ADDR_Y~9                                           ; 1       ;
+; DT:DT_U|ADDR_Y~8                                           ; 1       ;
+; DT:DT_U|ADDR_Y~7                                           ; 1       ;
+; DT:DT_U|ADDR_Y~6                                           ; 1       ;
+; DT:DT_U|ADDR_Y~5                                           ; 1       ;
+; DT:DT_U|ADDR_Y~4                                           ; 1       ;
+; DT:DT_U|ADDR_Y[8]~2                                        ; 1       ;
+; DT:DT_U|ADDR_X~25                                          ; 1       ;
+; DT:DT_U|ADDR_X~24                                          ; 1       ;
 ; X[4]                                                       ; 1       ;
 ; X[3]                                                       ; 1       ;
 ; X[2]                                                       ; 1       ;
 ; X[1]                                                       ; 1       ;
-; DT:DT_U|ADDR_X[8]~16                                       ; 1       ;
-; DT:DT_U|finish~1                                           ; 1       ;
-; DT:DT_U|finish~0                                           ; 1       ;
-; DT:DT_U|Equal0~0                                           ; 1       ;
+; DT:DT_U|ADDR_X[9]~21                                       ; 1       ;
+; DT:DT_U|Equal2~1                                           ; 1       ;
+; DT:DT_U|Equal2~0                                           ; 1       ;
+; DT:DT_U|Equal1~0                                           ; 1       ;
 ; writeing_CE~0                                              ; 1       ;
 ; writeXcnt[0]~13                                            ; 1       ;
 ; writeing~1                                                 ; 1       ;
 ; writeing~0                                                 ; 1       ;
-; DT:DT_U|ADDR_X~11                                          ; 1       ;
-; DT:DT_U|ADDR_X~10                                          ; 1       ;
+; DT:DT_U|ADDR_X~17                                          ; 1       ;
+; DT:DT_U|ADDR_X~16                                          ; 1       ;
+; DT:DT_U|ADDR_X~15                                          ; 1       ;
+; DT:DT_U|ADDR_X~13                                          ; 1       ;
+; DT:DT_U|ADDR_X~12                                          ; 1       ;
 ; computing~1                                                ; 1       ;
 ; c_key                                                      ; 1       ;
 ; X[0]                                                       ; 1       ;
@@ -2111,16 +2124,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; lpm_mult:Mult0|mult_p5t:auto_generated|mac_mult1~DATAOUT2  ; 1       ;
 ; lpm_mult:Mult0|mult_p5t:auto_generated|mac_mult1~DATAOUT1  ; 1       ;
 ; lpm_mult:Mult0|mult_p5t:auto_generated|mac_mult1           ; 1       ;
-; DT:DT_U|LessThan2~14                                       ; 1       ;
-; DT:DT_U|LessThan2~13                                       ; 1       ;
-; DT:DT_U|LessThan2~11                                       ; 1       ;
-; DT:DT_U|LessThan2~9                                        ; 1       ;
-; DT:DT_U|LessThan2~7                                        ; 1       ;
-; DT:DT_U|LessThan2~5                                        ; 1       ;
-; DT:DT_U|LessThan2~3                                        ; 1       ;
-; DT:DT_U|LessThan2~1                                        ; 1       ;
+; DT:DT_U|LessThan0~14                                       ; 1       ;
+; DT:DT_U|LessThan0~13                                       ; 1       ;
+; DT:DT_U|LessThan0~11                                       ; 1       ;
+; DT:DT_U|LessThan0~9                                        ; 1       ;
+; DT:DT_U|LessThan0~7                                        ; 1       ;
+; DT:DT_U|LessThan0~5                                        ; 1       ;
+; DT:DT_U|LessThan0~3                                        ; 1       ;
+; DT:DT_U|LessThan0~1                                        ; 1       ;
+; DT:DT_U|min[0]~10                                          ; 1       ;
 ; DT:DT_U|min[0]~9                                           ; 1       ;
-; DT:DT_U|min[0]~8                                           ; 1       ;
 ; DT:DT_U|DQ_write[7]~23                                     ; 1       ;
 ; DT:DT_U|DQ_write[6]~22                                     ; 1       ;
 ; DT:DT_U|DQ_write[6]~21                                     ; 1       ;
@@ -2383,10 +2396,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; DT:DT_U|Add3~2                                             ; 1       ;
 ; writeXcnt[0]~11                                            ; 1       ;
 ; writeXcnt[0]~10                                            ; 1       ;
-; DT:DT_U|Add2~1                                             ; 1       ;
-; DT:DT_U|Add2~0                                             ; 1       ;
 ; DT:DT_U|Add3~1                                             ; 1       ;
-; DT:DT_U|Add3~0                                             ; 1       ;
+; DT:DT_U|Add2~1                                             ; 1       ;
 ; computing~0                                                ; 1       ;
 ; counterHS[10]~32                                           ; 1       ;
 ; counterHS[9]~31                                            ; 1       ;
@@ -2453,8 +2464,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------------------------------+----------------------------+--------------------+---------------------+--------------------------------+-----------------------+-----------------------+-------------------+-----------------+
 ; Name                                                ; Mode                       ; Location           ; Sign Representation ; Has Input Shift Register Chain ; Data A Input Register ; Data B Input Register ; Pipeline Register ; Output Register ;
 +-----------------------------------------------------+----------------------------+--------------------+---------------------+--------------------------------+-----------------------+-----------------------+-------------------+-----------------+
-; lpm_mult:Mult0|mult_p5t:auto_generated|mac_out2     ; Simple Multiplier (18-bit) ; DSPOUT_X44_Y23_N2  ;                     ; No                             ;                       ;                       ;                   ; no              ;
-;    lpm_mult:Mult0|mult_p5t:auto_generated|mac_mult1 ;                            ; DSPMULT_X44_Y23_N0 ; Signed              ;                                ; no                    ; no                    ; no                ;                 ;
+; lpm_mult:Mult0|mult_p5t:auto_generated|mac_out2     ; Simple Multiplier (18-bit) ; DSPOUT_X44_Y27_N2  ;                     ; No                             ;                       ;                       ;                   ; no              ;
+;    lpm_mult:Mult0|mult_p5t:auto_generated|mac_mult1 ;                            ; DSPMULT_X44_Y27_N0 ; Signed              ;                                ; no                    ; no                    ; no                ;                 ;
 ; lpm_mult:Mult1|mult_p5t:auto_generated|mac_out2     ; Simple Multiplier (18-bit) ; DSPOUT_X44_Y25_N2  ;                     ; No                             ;                       ;                       ;                   ; no              ;
 ;    lpm_mult:Mult1|mult_p5t:auto_generated|mac_mult1 ;                            ; DSPMULT_X44_Y25_N0 ; Signed              ;                                ; no                    ; no                    ; no                ;                 ;
 +-----------------------------------------------------+----------------------------+--------------------+---------------------+--------------------------------+-----------------------+-----------------------+-------------------+-----------------+
@@ -2465,161 +2476,158 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-------------------------+
 ; Routing Resource Type ; Usage                   ;
 +-----------------------+-------------------------+
-; Block interconnects   ; 562 / 342,891 ( < 1 % ) ;
+; Block interconnects   ; 548 / 342,891 ( < 1 % ) ;
 ; C16 interconnects     ; 104 / 10,120 ( 1 % )    ;
-; C4 interconnects      ; 456 / 209,544 ( < 1 % ) ;
-; Direct links          ; 153 / 342,891 ( < 1 % ) ;
+; C4 interconnects      ; 454 / 209,544 ( < 1 % ) ;
+; Direct links          ; 139 / 342,891 ( < 1 % ) ;
 ; Global clocks         ; 2 / 20 ( 10 % )         ;
-; Local interconnects   ; 182 / 119,088 ( < 1 % ) ;
-; R24 interconnects     ; 94 / 9,963 ( < 1 % )    ;
-; R4 interconnects      ; 364 / 289,782 ( < 1 % ) ;
+; Local interconnects   ; 210 / 119,088 ( < 1 % ) ;
+; R24 interconnects     ; 90 / 9,963 ( < 1 % )    ;
+; R4 interconnects      ; 354 / 289,782 ( < 1 % ) ;
 +-----------------------+-------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Logic Elements                                                         ;
 +---------------------------------------------+------------------------------+
-; Number of Logic Elements  (Average = 13.07) ; Number of LABs  (Total = 29) ;
+; Number of Logic Elements  (Average = 12.83) ; Number of LABs  (Total = 30) ;
 +---------------------------------------------+------------------------------+
 ; 1                                           ; 2                            ;
 ; 2                                           ; 2                            ;
-; 3                                           ; 0                            ;
+; 3                                           ; 1                            ;
 ; 4                                           ; 0                            ;
 ; 5                                           ; 0                            ;
 ; 6                                           ; 0                            ;
 ; 7                                           ; 0                            ;
-; 8                                           ; 0                            ;
-; 9                                           ; 1                            ;
+; 8                                           ; 1                            ;
+; 9                                           ; 0                            ;
 ; 10                                          ; 1                            ;
-; 11                                          ; 1                            ;
-; 12                                          ; 0                            ;
-; 13                                          ; 2                            ;
+; 11                                          ; 0                            ;
+; 12                                          ; 1                            ;
+; 13                                          ; 1                            ;
 ; 14                                          ; 1                            ;
 ; 15                                          ; 1                            ;
-; 16                                          ; 18                           ;
+; 16                                          ; 19                           ;
 +---------------------------------------------+------------------------------+
 
 
 +-------------------------------------------------------------------+
 ; LAB-wide Signals                                                  ;
 +------------------------------------+------------------------------+
-; LAB-wide Signals  (Average = 1.52) ; Number of LABs  (Total = 29) ;
+; LAB-wide Signals  (Average = 1.70) ; Number of LABs  (Total = 30) ;
 +------------------------------------+------------------------------+
-; 1 Async. clear                     ; 7                            ;
-; 1 Clock                            ; 15                           ;
-; 1 Clock enable                     ; 12                           ;
+; 1 Async. clear                     ; 9                            ;
+; 1 Clock                            ; 21                           ;
+; 1 Clock enable                     ; 13                           ;
 ; 1 Sync. clear                      ; 3                            ;
 ; 1 Sync. load                       ; 2                            ;
-; 2 Clocks                           ; 5                            ;
+; 2 Clocks                           ; 3                            ;
 +------------------------------------+------------------------------+
 
 
 +-----------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Signals Sourced  (Average = 18.34) ; Number of LABs  (Total = 29) ;
+; Number of Signals Sourced  (Average = 17.93) ; Number of LABs  (Total = 30) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
 ; 1                                            ; 2                            ;
-; 2                                            ; 1                            ;
-; 3                                            ; 1                            ;
+; 2                                            ; 0                            ;
+; 3                                            ; 2                            ;
 ; 4                                            ; 0                            ;
-; 5                                            ; 0                            ;
+; 5                                            ; 1                            ;
 ; 6                                            ; 0                            ;
 ; 7                                            ; 0                            ;
-; 8                                            ; 0                            ;
-; 9                                            ; 1                            ;
+; 8                                            ; 1                            ;
+; 9                                            ; 0                            ;
 ; 10                                           ; 1                            ;
 ; 11                                           ; 0                            ;
 ; 12                                           ; 0                            ;
-; 13                                           ; 2                            ;
+; 13                                           ; 0                            ;
 ; 14                                           ; 0                            ;
-; 15                                           ; 0                            ;
-; 16                                           ; 2                            ;
+; 15                                           ; 2                            ;
+; 16                                           ; 1                            ;
 ; 17                                           ; 3                            ;
-; 18                                           ; 0                            ;
-; 19                                           ; 1                            ;
+; 18                                           ; 1                            ;
+; 19                                           ; 0                            ;
 ; 20                                           ; 1                            ;
-; 21                                           ; 1                            ;
-; 22                                           ; 1                            ;
+; 21                                           ; 2                            ;
+; 22                                           ; 3                            ;
 ; 23                                           ; 1                            ;
-; 24                                           ; 2                            ;
+; 24                                           ; 1                            ;
 ; 25                                           ; 1                            ;
-; 26                                           ; 5                            ;
+; 26                                           ; 4                            ;
 ; 27                                           ; 1                            ;
 ; 28                                           ; 0                            ;
 ; 29                                           ; 0                            ;
 ; 30                                           ; 1                            ;
-; 31                                           ; 0                            ;
-; 32                                           ; 1                            ;
+; 31                                           ; 1                            ;
 +----------------------------------------------+------------------------------+
 
 
 +--------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                        ;
 +-------------------------------------------------+------------------------------+
-; Number of Signals Sourced Out  (Average = 9.41) ; Number of LABs  (Total = 29) ;
+; Number of Signals Sourced Out  (Average = 8.63) ; Number of LABs  (Total = 30) ;
 +-------------------------------------------------+------------------------------+
 ; 0                                               ; 0                            ;
 ; 1                                               ; 4                            ;
 ; 2                                               ; 0                            ;
-; 3                                               ; 0                            ;
-; 4                                               ; 0                            ;
-; 5                                               ; 1                            ;
-; 6                                               ; 2                            ;
-; 7                                               ; 0                            ;
-; 8                                               ; 2                            ;
+; 3                                               ; 1                            ;
+; 4                                               ; 2                            ;
+; 5                                               ; 2                            ;
+; 6                                               ; 1                            ;
+; 7                                               ; 2                            ;
+; 8                                               ; 1                            ;
 ; 9                                               ; 4                            ;
-; 10                                              ; 4                            ;
-; 11                                              ; 3                            ;
-; 12                                              ; 1                            ;
-; 13                                              ; 3                            ;
+; 10                                              ; 1                            ;
+; 11                                              ; 2                            ;
+; 12                                              ; 4                            ;
+; 13                                              ; 1                            ;
 ; 14                                              ; 2                            ;
 ; 15                                              ; 1                            ;
 ; 16                                              ; 1                            ;
-; 17                                              ; 1                            ;
+; 17                                              ; 0                            ;
+; 18                                              ; 1                            ;
 +-------------------------------------------------+------------------------------+
 
 
 +-----------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Distinct Inputs  (Average = 14.83) ; Number of LABs  (Total = 29) ;
+; Number of Distinct Inputs  (Average = 13.93) ; Number of LABs  (Total = 30) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
 ; 1                                            ; 1                            ;
 ; 2                                            ; 1                            ;
-; 3                                            ; 3                            ;
-; 4                                            ; 1                            ;
+; 3                                            ; 2                            ;
+; 4                                            ; 2                            ;
 ; 5                                            ; 0                            ;
-; 6                                            ; 0                            ;
-; 7                                            ; 1                            ;
+; 6                                            ; 1                            ;
+; 7                                            ; 0                            ;
 ; 8                                            ; 0                            ;
 ; 9                                            ; 0                            ;
-; 10                                           ; 3                            ;
-; 11                                           ; 0                            ;
+; 10                                           ; 0                            ;
+; 11                                           ; 2                            ;
 ; 12                                           ; 0                            ;
 ; 13                                           ; 2                            ;
-; 14                                           ; 3                            ;
-; 15                                           ; 1                            ;
-; 16                                           ; 2                            ;
-; 17                                           ; 0                            ;
+; 14                                           ; 2                            ;
+; 15                                           ; 3                            ;
+; 16                                           ; 3                            ;
+; 17                                           ; 1                            ;
 ; 18                                           ; 1                            ;
-; 19                                           ; 0                            ;
-; 20                                           ; 1                            ;
+; 19                                           ; 2                            ;
+; 20                                           ; 0                            ;
 ; 21                                           ; 0                            ;
-; 22                                           ; 0                            ;
-; 23                                           ; 0                            ;
-; 24                                           ; 1                            ;
-; 25                                           ; 1                            ;
-; 26                                           ; 1                            ;
-; 27                                           ; 2                            ;
-; 28                                           ; 0                            ;
+; 22                                           ; 1                            ;
+; 23                                           ; 2                            ;
+; 24                                           ; 0                            ;
+; 25                                           ; 0                            ;
+; 26                                           ; 0                            ;
+; 27                                           ; 1                            ;
+; 28                                           ; 1                            ;
 ; 29                                           ; 0                            ;
 ; 30                                           ; 1                            ;
-; 31                                           ; 0                            ;
-; 32                                           ; 1                            ;
-; 33                                           ; 1                            ;
 +----------------------------------------------+------------------------------+
 
 
@@ -2879,7 +2887,7 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "TEST[7]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "TEST[8]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "TEST[9]" is assigned to location or region, but does not exist in design
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:03
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:04
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
@@ -2891,19 +2899,19 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:03
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.95 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 1.45 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Info (144001): Generated suppressed messages file D:/Code/school/Sophomore/verilog2/20191219/Vag_DT/output_files/VGA.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 23 warnings
-    Info: Peak virtual memory: 5604 megabytes
-    Info: Processing ended: Thu Dec 19 23:42:58 2019
-    Info: Elapsed time: 00:00:19
-    Info: Total CPU time (on all processors): 00:00:28
+    Info: Peak virtual memory: 5607 megabytes
+    Info: Processing ended: Fri Dec 20 02:28:47 2019
+    Info: Elapsed time: 00:00:24
+    Info: Total CPU time (on all processors): 00:00:33
 
 
 +----------------------------+

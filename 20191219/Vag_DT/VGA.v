@@ -181,9 +181,7 @@ reg [9:0]ADDR_X;
 reg [9:0]ADDR_Y;
 assign SRAM_ADDR={ADDR_Y,ADDR_X};
 //----------------------------------------------------------------------------------
-reg [2:0] comp_;
 reg [7:0] min;
-reg isComp;
 
 parameter Rw_State_Addr = 2'b00,
 		  RW_State_Read  = 2'b01,
@@ -195,43 +193,40 @@ reg [2:0] Comp_Count;
 always@(posedge clk,negedge rst)begin
 	if(!rst)begin
 		ADDR_X<=1; ADDR_Y<=1;
-		
-		isComp <= 0;
 		finish<=0; 
-/////////////////////////////////////////////////////////////////
-		comp_   <= 0;
 		min <= 8'hff;
 		RW_State <= Rw_State_Addr;
 		SRAM_RW<=1; SRAM_CE<=1;
 		DQ_write<=0;
-		Comp_Count <= 1;
+		Comp_Count <= 0;
 
 	end else begin
 		if(computing && !finish)begin
 			RW_State <= RW_State_Read;
-			SRAM_CE <= 0;
-			SRAM_RW <= 1;
+			
 
-			if( State_1 == pos_1 &&  ADDR_X < 2 &&  ADDR_Y < 2 ) finish <= 1;
+			if( State_1 == pos_1 &&  ADDR_X == 1 &&  ADDR_Y == 1 ) finish <= 1;
 			
 			case(RW_State)
 				Rw_State_Addr:begin
+					SRAM_CE <= 0;
+					SRAM_RW <= 1;
 					RW_State <= RW_State_Read;
 					case(Comp_Count)
-						1:begin
+						0:begin
 							min <= 8'hff;
 							if(!State_1)begin
 								ADDR_X <= ADDR_X == 638 ?          1 : ADDR_X + 1;
 								ADDR_Y <= ADDR_X == 638 ? ADDR_Y + 1 : ADDR_Y;
 							end else begin
-								ADDR_X <= ADDR_X == 1 ? 638        : ADDR_X - 1;
-								ADDR_Y <= ADDR_X == 1 ? ADDR_Y - 1 :  ADDR_Y;
+								ADDR_X <= ADDR_X == 1   ? 638        : ADDR_X - 1;
+								ADDR_Y <= ADDR_X == 1   ? ADDR_Y - 1 :  ADDR_Y;
 							end
 						end
 
-						2:   ADDR_X <= !State_1 ? ADDR_X - 1 : ADDR_X + 1;
-						3:   ADDR_Y <= !State_1 ? ADDR_Y - 1 : ADDR_Y + 1;
-						4,5: ADDR_X <= !State_1 ? ADDR_X + 1 : ADDR_X - 1;
+						1:   ADDR_X <= !State_1 ? ADDR_X - 1 : ADDR_X + 1;
+						2:   ADDR_Y <= !State_1 ? ADDR_Y - 1 : ADDR_Y + 1;
+						3,4: ADDR_X <= !State_1 ? ADDR_X + 1 : ADDR_X - 1;
 						default:begin
 						end
 					endcase
@@ -242,24 +237,20 @@ always@(posedge clk,negedge rst)begin
 					SRAM_RW <= 1;
 					/*                     Min                 */
 					case (State_1)
-						pos_0:begin
-							if(min > DQ_read && Comp_Count != 0) min <= DQ_read;
-						end
-						pos_1:begin
-							if(min > DQ_read && Comp_Count != 0) min <=  DQ_read + 1;
-						end
+						pos_0: if(min > DQ_read && Comp_Count != 0) min <= DQ_read; 
+						pos_1: if(min > DQ_read                   ) min <= Comp_Count ? DQ_read + 1 : DQ_read; 
 					endcase
 					/*--------------------------------------------*/
-					if(DQ_read == 0 && Comp_Count == 1)begin // Read == 0
+					if(DQ_read == 0 && Comp_Count == 0)begin // Read == 0
 						Comp_Count <= 0;
-						RW_State <= RW_State_Read;
-					end else
-					if( Comp_Count < 5) begin
+						RW_State   <= Rw_State_Addr;
+					end else 
+					if( Comp_Count < 4) begin
 						Comp_Count <= Comp_Count + 1;
-						RW_State <= Rw_State_Addr;
+						RW_State   <= Rw_State_Addr;
 
 					end else begin
-						RW_State <= RW_State_Wire;
+						RW_State   <= RW_State_Wire;
 						Comp_Count <= 0;
 					end
 				end
@@ -268,22 +259,21 @@ always@(posedge clk,negedge rst)begin
 					SRAM_CE <= 0;
 					SRAM_RW <= 0;
 					Comp_Count <= 0;
-					RW_State <= RW_State_Read;
+					RW_State <= Rw_State_Addr;
 					
 					if(!State_1)begin
-						ADDR_X <= ADDR_X - 1;
-						ADDR_Y <= ADDR_Y + 1;
+						ADDR_X   <= ADDR_X - 1;
+						ADDR_Y   <= ADDR_Y + 1;
 						DQ_write <= min + 1;
 					end else begin
-						ADDR_X <= ADDR_X + 1;
-						ADDR_Y <= ADDR_Y - 1;
+						ADDR_X   <= ADDR_X + 1;
+						ADDR_Y   <= ADDR_Y - 1;
 						DQ_write <= min;
 					end
 				end
 				RW_State_NULL:begin
 				end
 			endcase
-
 		end else if(!computing)begin
 			finish<=0;
 			ADDR_X<=0; ADDR_Y<=1;

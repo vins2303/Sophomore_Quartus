@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE115F29) Path("D:/Code/school/Sophomore/verilog2/20191219/vag/output_files/") File("VGA.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE115F29) Path("D:/Code/school/Sophomore/verilog2/20191219/Vag_DT/output_files/") File("VGA.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
