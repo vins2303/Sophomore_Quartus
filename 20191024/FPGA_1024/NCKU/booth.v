@@ -26,9 +26,4 @@ always@(in2,in1) begin
     out = {A,Q};
 end
 
-
-
-/*write your code here*/
-
-
 endmodule

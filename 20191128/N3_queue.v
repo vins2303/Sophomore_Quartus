@@ -38,7 +38,6 @@ always@(posedge clk)begin
         Head <=0;
         Tail <=0;
         is_read <= 0;
-        // out_data <= 0;
         count<=0;
     end else begin
         if(key_pos == 1 && key0 == 0)begin

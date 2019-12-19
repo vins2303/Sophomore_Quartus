@@ -60,8 +60,7 @@ always@(posedge clk)begin
         end else begin
             
             is_read<=0;
-            if(count == 0) SRAM_CE_N <=1;
-            else count<= count -1;
+            SRAM_CE_N <=1;
         end
     end
 end

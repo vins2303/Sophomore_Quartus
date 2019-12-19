@@ -1,23 +1,19 @@
-D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/PATTERN.v {1 {vlog -work work -vopt -stats=none D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/PATTERN.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module PATTERN
+D:/Code/school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/TESTBED.v {0 {vlog -work work {D:\Code\school\Sophomore\verilog2\20191024\FPGA_1024\NCTU\NCTU\TESTBED.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "D:/Code/school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work". (Format: 4)
 
-Top level modules:
-	PATTERN
+** Error: Verilog Compiler exiting
 
-} {} {}} D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/CC.v {1 {vlog -work work -vopt -stats=none D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/CC.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module CC
+} {3.0 4.0 5.0 6.0} {}} D:/Code/school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/PATTERN.v {0 {vlog -work work {D:\Code\school\Sophomore\verilog2\20191024\FPGA_1024\NCTU\NCTU\PATTERN.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "D:/Code/school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work". (Format: 4)
 
-Top level modules:
-	CC
+** Error: Verilog Compiler exiting
 
-} {} {}} D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/TESTBED.v {1 {vlog -work work -vopt -stats=none D:/Code/kyan_school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/TESTBED.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module PATTERN
--- Compiling module TESTBED
+} {3.0 4.0 5.0 6.0} {}} D:/Code/school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/CC.v {0 {vlog -work work {D:\Code\school\Sophomore\verilog2\20191024\FPGA_1024\NCTU\NCTU\CC.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+** Error: (vlog-42) Unsupported ModelSim library format for "D:/Code/school/Sophomore/verilog2/20191024/FPGA_1024/NCTU/NCTU/work". (Format: 4)
 
-Top level modules:
-	TESTBED
+** Error: Verilog Compiler exiting
 
-} {} {}}
+} {3.0 4.0 5.0 6.0} {}}
