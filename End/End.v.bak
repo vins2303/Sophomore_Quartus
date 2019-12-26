@@ -1,0 +1,187 @@
+`include "Roles.v"
+module End(clk, rst, VGA_HS, VGA_VS ,VGA_R, VGA_G, VGA_B,VGA_BLANK_N,VGA_CLOCK);
+
+input clk, rst;		//clk 50MHz
+output VGA_HS, VGA_VS;
+output reg [7:0] VGA_R,VGA_G,VGA_B;
+output VGA_BLANK_N,VGA_CLOCK;
+
+
+
+
+
+
+reg VGA_HS, VGA_VS;
+reg[10:0] counterHS;
+reg[9:0] counterVS;
+reg [2:0] valid;
+reg clk25M;
+
+reg [12:0] X,Y;
+
+parameter H_FRONT = 16;
+parameter H_SYNC  = 96;
+parameter H_BACK  = 48;
+parameter H_ACT   = 640;//
+parameter H_BLANK = H_FRONT + H_SYNC + H_BACK;
+parameter H_TOTAL = H_FRONT + H_SYNC + H_BACK + H_ACT;
+
+parameter V_FRONT = 11;
+parameter V_SYNC  = 2;
+parameter V_BACK  = 32;
+parameter V_ACT   = 480;//
+parameter V_BLANK = V_FRONT + V_SYNC + V_BACK;
+parameter V_TOTAL = V_FRONT + V_SYNC + V_BACK + V_ACT;
+assign VGA_SYNC_N = 1'b0;
+assign VGA_BLANK_N = ~((counterHS<H_BLANK)||(counterVS<V_BLANK));
+assign VGA_CLOCK = ~clk25M;
+
+always@(posedge clk)
+	clk25M = ~clk25M;
+
+
+always@(posedge clk25M)
+begin
+	if(!rst) 
+		counterHS <= 0;
+	else begin
+	
+		if(counterHS == H_TOTAL) 
+			counterHS <= 0;
+		else 
+			counterHS <= counterHS + 1'b1;
+		
+		if(counterHS == H_FRONT-1)
+			VGA_HS <= 1'b0;
+		if(counterHS == H_FRONT + H_SYNC -1)
+			VGA_HS <= 1'b1;
+			
+		if(counterHS >= H_BLANK)
+			X <= counterHS-H_BLANK;
+		else
+			X <= 0;	
+	end
+end
+
+always@(posedge clk25M)
+begin
+	if(!rst) 
+		counterVS <= 0;
+	else begin
+	
+		if(counterVS == V_TOTAL) 
+			counterVS <= 0;
+		else if(counterHS == H_TOTAL) 
+			counterVS <= counterVS + 1'b1;
+			
+		if(counterVS == V_FRONT-1)
+			VGA_VS <= 1'b0;
+		if(counterVS == V_FRONT + V_SYNC -1)
+			VGA_VS <= 1'b1;
+		if(counterVS >= V_BLANK)
+			Y <= counterVS-V_BLANK;
+		else
+			Y <= 0;
+	end
+end
+
+reg [23:0]color[3:0];
+
+always@(posedge clk25M)
+begin
+	if (!rst) begin
+		{VGA_R,VGA_G,VGA_B}<=0;
+	end
+	else 
+	begin
+		if((X < Roles_Point_X + Roles_Width && X >= Roles_Point_X) &&
+		   (Y < Roles_Point_Y + Roles_Heigh && Y >= Roles_Point_Y)) begin
+			{VGA_R,VGA_G,VGA_B}<=Roles_Image[Y - Roles_Point_Y][ X - Roles_Width] == 1'b0 ? 24'h000000 :24'h0000FF;
+		end else begin
+			{VGA_R,VGA_G,VGA_B}<=24'h000000;
+		end
+   end
+end
+
+
+
+/*----------------------- Roles -----------------------------*/
+wire [9:0] Roles_Point_X;
+wire [9:0] Roles_Point_Y;
+wire [9:0] Roles_Width;
+wire [9:0] Roles_Heigh;
+Roles roles_(.clk(clk), .rst(rst), 
+			 .Point_X( Roles_Point_X), 
+			 .Point_Y( Roles_Point_Y),
+			 .Width(   Roles_Width),
+			 .Heigh(   Roles_Heigh)
+);
+
+
+
+
+
+
+
+endmodule
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------- Image ---------------------------*/
+wire [40:0]Roles_Image [0:42];
+assign Roles_Image[0] = 40'h3fffc;
+assign Roles_Image[1] = 40'h3fffc;
+assign Roles_Image[2] = 40'hfffff;
+assign Roles_Image[3] = 40'hf3fff;
+assign Roles_Image[4] = 40'hf3fff;
+assign Roles_Image[5] = 40'hfffff;
+assign Roles_Image[6] = 40'hfffff;
+assign Roles_Image[7] = 40'hfffff;
+assign Roles_Image[8] = 40'hfffff;
+assign Roles_Image[9] = 40'hfffff;
+assign Roles_Image[10] = 40'hfffff;
+assign Roles_Image[11] = 40'hffc00;
+assign Roles_Image[12] = 40'hffc00;
+assign Roles_Image[13] = 40'hffff0;
+assign Roles_Image[14] = 40'hffff0;
+assign Roles_Image[15] = 40'hc0003ff000;
+assign Roles_Image[16] = 40'hc0003ff000;
+assign Roles_Image[17] = 40'hc001fff000;
+assign Roles_Image[18] = 40'hc001fff000;
+assign Roles_Image[19] = 40'hf00fffff00;
+assign Roles_Image[20] = 40'hf00fffff00;
+assign Roles_Image[21] = 40'hfc3ffff300;
+assign Roles_Image[22] = 40'hfc3ffff300;
+assign Roles_Image[23] = 40'hfffffff000;
+assign Roles_Image[24] = 40'hfffffff000;
+assign Roles_Image[25] = 40'hfffffff000;
+assign Roles_Image[26] = 40'hfffffff000;
+assign Roles_Image[27] = 40'h3ffffff000;
+assign Roles_Image[28] = 40'h3fffffc000;
+assign Roles_Image[29] = 40'hfffffc000;
+assign Roles_Image[30] = 40'hfffffc000;
+assign Roles_Image[31] = 40'h3ffff0000;
+assign Roles_Image[32] = 40'h3ffff0000;
+assign Roles_Image[33] = 40'hfffc0000;
+assign Roles_Image[34] = 40'hfffc0000;
+assign Roles_Image[35] = 40'h3f3c0000;
+assign Roles_Image[36] = 40'h3f3c0000;
+assign Roles_Image[37] = 40'h3c0c0000;
+assign Roles_Image[38] = 40'h3c0c0000;
+assign Roles_Image[39] = 40'h300c0000;
+assign Roles_Image[40] = 40'h300c0000;
+assign Roles_Image[41] = 40'h3c0f0000;
+assign Roles_Image[42] = 40'h3c0f0000;
+/*-------------------------------------------------------*/
