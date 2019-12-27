@@ -25,13 +25,12 @@ module Roles(
                     Move_Y <= Jump_Heigh << 1;
                     isMove <= 1;
                 end else if(isMove) begin
-                    Point_Y <= Point_Y + ( Move_Y > Jump_Heigh ?   - (Move_Y - Jump_Heigh ) :  (Jump_Heigh - Move_Y));
+                    Point_Y <= Point_Y + ( Move_Y > Jump_Heigh ? - (Move_Y - Jump_Heigh ) :  (Jump_Heigh - Move_Y));
                     Move_Y  <= Move_Y - 1;
                     if(Move_Y == 0) isMove <= 0;
                 end
             end
         end
-
     end
 
 endmodule

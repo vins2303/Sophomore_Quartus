@@ -1,5 +1,6 @@
 `include "Roles.v"
 `include "Cactus.v"
+
 module End(
 	input clk, rst,		//clk 50MHz
 	input Stop_SW,
@@ -9,7 +10,7 @@ module End(
 	input Jump_Button
 );
 
-
+/*--------------------------------------- VGA -------------------------------------------------*/
 	reg[10:0] counterHS;
 	reg[9:0] counterVS;
 	reg [2:0] valid;
@@ -34,8 +35,7 @@ module End(
 	assign VGA_BLANK_N = ~((counterHS<H_BLANK)||(counterVS<V_BLANK));
 	assign VGA_CLOCK = ~clk25M;
 
-	always@(posedge clk)
-		clk25M = ~clk25M;
+	always@(posedge clk) clk25M = ~clk25M;
 
 
 	always@(posedge clk25M)
@@ -82,23 +82,27 @@ module End(
 				Y <= 0;
 		end
 	end
+/*----------------------------------------------------------------------------------------*/
 
 	reg [23:0]color[3:0];
 
 	always@(posedge clk25M) begin
 		if (!rst) begin
 			{VGA_R,VGA_G,VGA_B}<=0;
-		end else begin
-			if((X < Roles_Point_X + Roles_Width && X >= Roles_Point_X) &&
-			(Y < Roles_Point_Y + Roles_Heigh && Y >= Roles_Point_Y)) begin
-				{VGA_R,VGA_G,VGA_B}<= ( Roles_Image_Status ? Roles_Image_1[Y - Roles_Point_Y][ X - Roles_Point_X] : Roles_Image_2[Y - Roles_Point_Y][ X - Roles_Point_X] ) == 1'b0 ? 24'h000000 :24'h0000FF;
-			end else if((X < Cactus_Point_X + Cactus_Width && X >= Cactus_Point_X) &&
-				(Y < Cactus_Point_Y + Cactus_Heigh && Y >= Cactus_Point_Y)) begin
-				{VGA_R,VGA_G,VGA_B}<= Cactus_Image[Y - Cactus_Point_Y][ X - Cactus_Point_X]  == 1'b0 ? 24'h000000 :24'h00FF00;
+		end else 
+		begin
+			if((X < Roles_Point_X + Roles_Width && X >= Roles_Point_X) && (Y < Roles_Point_Y + Roles_Heigh && Y >= Roles_Point_Y)) begin
+				{VGA_R,VGA_G,VGA_B}<= ( Roles_Image_Status ? Roles_Image_1[Y - Roles_Point_Y][ X - Roles_Point_X] : Roles_Image_2[Y - Roles_Point_Y][ X - Roles_Point_X] ) ? 24'h0000FF :24'h000000;
+
+			end else if((X < Cactus_Point_X_0 + Cactus_Width_0 && X >= Cactus_Point_X_0) && (Y < Cactus_Point_Y_0 + Cactus_Heigh_0 && Y >= Cactus_Point_Y_0)) begin
+				{VGA_R,VGA_G,VGA_B}<= Cactus_Image[Y - Cactus_Point_Y_0][ X - Cactus_Point_X_0] ? 24'h00FF00 :24'h000F00;
+
 			end else if(Y == 400) begin
-				{VGA_R,VGA_G,VGA_B}<=24'h33FF33;
+				{VGA_R,VGA_G,VGA_B}<=24'h048787;
+
 			end else begin
 				{VGA_R,VGA_G,VGA_B}<=24'h000000;
+
 			end
 		end
 	end
@@ -106,14 +110,14 @@ module End(
 
 
 
-/*--------------------- Stop ----------------------------*/
+/*---------------------------- Stop ---------------------------------------*/
 	wire Game_Stop;
 	assign Game_Stop = isOverlap_Stop || Stop_SW;
 
 
 
 
-/*----------------------- Clk -----------------------------*/
+/*----------------------------- Clk ---------------------------------------*/
 	reg clk0_1s;	
 	reg clk00_5s;
 	reg [24:0] clk005s_count;
@@ -131,16 +135,16 @@ module End(
 
 	reg Roles_Image_Status;
 
-/*------------------------- isOverlap-------------------------*/
+/*------------------------------ isOverlap--------------------------------*/
 	reg isOverlap_Stop;
 	always@(posedge clk, negedge rst)begin
 		if(!rst)begin
 			isOverlap_Stop <= 0;
 		end else begin
-			if( ( Roles_Point_X + Roles_Width  > Cactus_Point_X &&  
-			     Cactus_Point_X + Cactus_Width > Roles_Point_X) &&
-				( Roles_Point_Y + Roles_Heigh  > Cactus_Point_Y && 
-				 Cactus_Point_Y + Cactus_Heigh > Roles_Point_Y ))begin
+			if( (Roles_Point_X    + Roles_Width    > Cactus_Point_X_0 &&  
+			     Cactus_Point_X_0 + Cactus_Width_0 > Roles_Point_X  ) &&
+				(Roles_Point_Y    + Roles_Heigh    > Cactus_Point_Y_0 && 
+				 Cactus_Point_Y_0 + Cactus_Heigh_0 > Roles_Point_Y  ))begin
 				
 				isOverlap_Stop <= 1;	
 			end
@@ -150,7 +154,7 @@ module End(
 	end
 
 
-/*------------------------ Roles -----------------------------*/
+/*----------------------------- Roles ----------------------------------*/
 	wire [9:0] Roles_Point_X;
 	wire [9:0] Roles_Point_Y;
 	wire [9:0] Roles_Width;
@@ -165,21 +169,21 @@ module End(
 				.Jump_Button(Jump_Button)
 	);
 
-/*----------------------- Cactus -----------------------------*/
-	wire [9:0] Cactus_Point_X;
-	wire [9:0] Cactus_Point_Y;
-	wire [9:0] Cactus_Width;
-	wire [9:0] Cactus_Heigh;
+/*----------------------------- Cactus ---------------------------------*/
+	wire [9:0] Cactus_Point_X_0;
+	wire [9:0] Cactus_Point_Y_0;
+	wire [9:0] Cactus_Width_0;
+	wire [9:0] Cactus_Heigh_0;
 	Cactus Cactus_(.clk(clk00_5s), 
 				.rst(rst), 
 				.Stop(Game_Stop),
-				.Point_X( Cactus_Point_X), 
-				.Point_Y( Cactus_Point_Y),
-				.Width(   Cactus_Width),
-				.Heigh(   Cactus_Heigh)
+				.Point_X( Cactus_Point_X_0), 
+				.Point_Y( Cactus_Point_Y_0),
+				.Width(   Cactus_Width_0),
+				.Heigh(   Cactus_Heigh_0)
 	);
 
-/*------------------------- Image ---------------------------*/
+/*------------------------------ Image -------------------------------*/
 always@(posedge clk0_1s) if(!Game_Stop) Roles_Image_Status <= ~Roles_Image_Status;
 
 wire [ 0 : 39] Roles_Image_1[ 0 : 42];
@@ -310,7 +314,6 @@ assign Cactus_Image[31] = 15'b000001111100000;
 assign Cactus_Image[32] = 15'b000001111100000;
 
 /*-------------------------------------------------------*/
-
 endmodule
 
 
