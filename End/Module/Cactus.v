@@ -1,27 +1,22 @@
-module Cactus(
+module Cactus #(
+    parameter Width = 15,
+    parameter Height = 33
+)(
     input clk,
     input rst,
     input Stop,
     output reg [9:0] Point_X,
     output reg [9:0] Point_Y,
-    output [9:0] Width,
-    output [9:0] Heigh
+    input Wipe
 );
-
-    assign Width = 15;
-    assign Heigh = 33;
     reg [7:0] Move_Y;
     always@(posedge clk, negedge rst)begin
         if(!rst) begin
             Point_X <= 640;
-            Point_Y <= 400 - Heigh;
+            Point_Y <= 400 - Height;
         end else begin
-            if(!Stop)begin
-                Point_X <= Point_X < 1 ? 640 : Point_X - 5;
-                
-            end
+            if(!Stop) Point_X <= (Point_X < 1 ||  Wipe) ? 640 : Point_X - 2;
         end
-
     end
 
 endmodule

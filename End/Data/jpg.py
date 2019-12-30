@@ -21,7 +21,7 @@ for row in range(heigh):
     
     line = ""
     for col in range(width):
-        if(frame[row][col][0] < 125):
+        if(frame[row][col][0] < 200):
             line += "1"
         else:
             line += "0"
